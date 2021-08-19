@@ -1,22 +1,19 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Abraham, Binny, Kara Sako, Elina Kinny, and Isapdaile Zeliang (2018):  Sociolinguistic Research among Selected Groups in Western Arunachal Pradesh: Highlighting Monpa. Dallas: SIL International.",
+    "dc:bibliographicCitation": "+++citation pending +++",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:format": [
-        "http://concepticon.clld.org/contributions/Abraham-2018-307"
-    ],
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
-    "dc:title": "CLDF dataset derived from Abraham et al.'s \"Sociolinguistic Research on Monpa\" from 2018",
+    "dc:title": "CLDF dataset derived from Robbeets et al.'s \"Triangulation of Transeurasian Languages\" from 2021",
     "dcat:accessURL": "https://lingulist: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@github.com/lexibank/robbeetsaltaic",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://lingulist: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@github.com/lexibank/robbeetsaltaic",
-            "dc:created": "b467973"
+            "dc:created": "6f79182"
         },
         {
             "rdf:type": "prov:Entity",

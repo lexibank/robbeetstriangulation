@@ -1,10 +1,10 @@
-# CLDF dataset derived from Abraham et al.'s "Sociolinguistic Research on Monpa" from 2018
+# CLDF dataset derived from Robbeets et al.'s "Triangulation of Transeurasian Languages" from 2021
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > Abraham, Binny, Kara Sako, Elina Kinny, and Isapdaile Zeliang (2018):  Sociolinguistic Research among Selected Groups in Western Arunachal Pradesh: Highlighting Monpa. Dallas: SIL International.
+  > +++citation pending +++
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -12,9 +12,6 @@ If you use these data please cite
 
 This dataset is licensed under a CC-BY-4.0 license
 
-
-Conceptlists in Concepticon:
-- [Abraham-2018-307](https://concepticon.clld.org/contributions/Abraham-2018-307)
 ## Statistics
 
 
@@ -40,14 +37,7 @@ Conceptlists in Concepticon:
 
 Name               | GitHub user | Description | Role
 ---                | ---         | --- | --- 
-Johann-Mattis List | @LinguList  | maintainer, patron | other 
-Mei-Shin Wu        | @MacyL      | maintainer | other
-Yunfan Lai         | @laiyunfan  | maintainer | other
-Wiktionary         | https://en.wiktionary.org/ | digitization | DataCurator, Distributor
-Binny Abraham | | data collection | Author
-Kara Sako | | data collection | Author
-Elina Kinny | | data collection | Author
-Isapdaile Zeliang | | data collection | Author
+Martine Robbeets |   | original data creation | Author 
 
 
 
