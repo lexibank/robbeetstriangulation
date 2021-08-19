@@ -1,102 +1,134 @@
-ID	Name
-BarabaTatar	BarabaTatar
-CodexCumanicus	CodexCumanicus
-NorthAltai	NorthAltai
-OldTurkic	OldTurkic
-SouthAltai	SouthAltai
-Azeri	Azeri
-Bashkir	Bashkir
-Chuvash	Chuvash
-CrimeanTatar	CrimeanTatar
-Dolgan	Dolgan
-Gagauz	Gagauz
-KaraKalpak	KaraKalpak
-KarachayBalkar	KarachayBalkar
-Karaim	Karaim
-Kazakh	Kazakh
-Khakas	Khakas
-Khalaj	Khalaj
-Kirghiz	Kirghiz
-Kumyk	Kumyk
-MiddleChulym	MiddleChulym
-Nogai	Nogai
-Salar	Salar
-WestYugur	WestYugur
-Shor	Shor
-KazanTatar	KazanTatar
-Tofa	Tofa
-Turkish	Turkish
-Turkmen	Turkmen
-Tuvan	Tuvan
-Uyghur	Uyghur
-Uzbek	Uzbek
-Yakut	Yakut
-Khalkha	Khalkha
-Buriat	Buriat
-Kalmyck	Kalmyck
-Oirat	Oirat
-Kamnigan	Kamnigan
-Dagur	Dagur
-ShiraYughur	Shira-Yughur
-Baoan	Baoan
-Dongxian	Dongxian
-Minhe	Minhe
-Huzhu	Huzhu
-Kangjia	Kangjia
-Moghol	Moghol
-MiddleMongolianSecretHistory	Middle Mongolian (Secret History)
-MiddleMongolianMuqaddimataladab	Middle Mongolian (Muqaddimat al-adab)
-Hezhe	Hezhe
-Oroch	Oroch
-Udihe	Udihe
-NanaiMiddleAmur	Nanai (Middle Amur)
-KurUrmi	Kur-Urmi
-NanaiBikin	Nanai (Bikin)
-Orok	Orok
-Ulcha	Ulcha
-Jurchen	Jurchen
-Manchu	Manchu
-Xibe	Xibe
-Even	Even
-Solon	Solon
-EvenkiKamnigan	Evenki (Kamnigan)
-StonyEvenkiPTPodkamennayaTunguska	Stony Evenki (PT = Podkamennaya Tunguska)
-SouthernEvenkiChiringda	Southern Evenki (Chiringda)
-NorthernEvenkiTutonchany	Northern Evenki (Tutonchany)
-NorthernEvenkiTura	Northern Evenki (Tura)
-Negidal	Negidal
-Oroqen	Oroqen
-Korean	Korean
-Hwanghae	Hwanghae
-SouthernHamgyong	Southern Hamgyong
-NorthernHamgyong	Northern Hamgyong
-SouthernPyongan	Southern Pyongan
-NorthernPyongan	Northern Pyongan
-Jeju	Jeju
-SouthernJeolla	Southern Jeolla
-NorthernJeolla	Northern Jeolla
-SouthernGyeongsang	Southern Gyeongsang
-NorthernGyeongsang	Northern Gyeongsang
-SouthernChungcheong	Southern Chungcheong
-NorthernChungcheong	Northern Chungcheong
-Gyeonggi	Gyeonggi
-Gangwon	Gangwon
-LateMiddleKorean	(Late) Middle Korean
-Japanese	Japanese
-OldJapanese	Old Japanese
-AmamiYamatohama	Amami Yamatohama 
-AmamiAsama	Amami Asama
-AmamiYoron	Amami Yoron
-OkinawaYonamine	Okinawa Yonamine
-OkinawaShuri	Okinawa Shuri
-MiyakoIrabu	Miyako Irabu
-YaeyamaIshigaki	Yaeyama Ishigaki
-YaeyamaHatoma	Yaeyama Hatoma
-Yonaguni	Yonaguni
-Kagoshima	Kagoshima
-Koshikiislands	Koshiki islands
-Kumamoto	Kumamoto
-Fukuoka	Fukuoka
-Hachijo	Hachijo
-EasternEvenki	Eastern Evenki 
-SouthernEvenkiVershinaTuturyBaikal	Southern Evenki  (Vershina-Tutury, Baikal)
+ID	Name	NameInSheet	Family	NameInSheets
+Azeri	Azeri	Azeri	Turkic	Azeri
+BarabaTatar	BarabaTatar	BarabaTatar		
+Bashkir	Bashkir	Bashkir	Turkic	Bashkir
+Chuvash	Chuvash	Chuvash	Turkic	Chuvash
+CodexCumanicus	CodexCumanicus	CodexCumanicus		
+CrimeanTatar	CrimeanTatar	CrimeanTatar	Turkic	CrimeanTatar
+Dolgan	Dolgan	Dolgan	Turkic	Dolgan
+Gagauz	Gagauz	Gagauz	Turkic	Gagauz
+KarachayBalkar	KarachayBalkar	KarachayBalkar	Turkic	KarachayBalkar
+Karaim	Karaim	Karaim	Turkic	Karaim
+KaraKalpak	KaraKalpak	KaraKalpak	Turkic	KaraKalpak
+Kazakh	Kazakh	Kazakh	Turkic	Kazakh
+Karakhanid	Karakhanid		Turkic	Karakhanid
+KazanTatar	KazanTatar	KazanTatar	Turkic	KazanTatar
+Khakas	Khakas	Khakas	Turkic	Khakas
+Khalaj	Khalaj	Khalaj	Turkic	Khalaj
+Kirghiz	Kirghiz	Kirghiz	Turkic	Kirghiz
+Kumyk	Kumyk	Kumyk	Turkic	Kumyk
+MiddleChulym	MiddleChulym	MiddleChulym	Turkic	MiddleChulym
+MiddleKypchak	MiddleKypchak		Turkic	MiddleKypchak
+MiddleTurkic	MiddleTurkic		Turkic	MiddleTurkic
+Nogai	Nogai	Nogai	Turkic	Nogai
+NorthAltai	NorthAltai	NorthAltai	Turkic	NorthAltai
+OldTurkic	OldTurkic	OldTurkic	Turkic	OldTurkic
+Oyrot	Oyrot		Turkic	Oyrot
+Proto-Turkic	Proto-Turkic		Turkic	Proto-Turkic
+Salar	Salar	Salar	Turkic	Salar
+SarygYugur	SarygYugur		Turkic	SarygYugur
+Shor	Shor	Shor	Turkic	Shor
+SouthAltai	SouthAltai	SouthAltai		
+Tofa	Tofa	Tofa	Turkic	Tofa
+Turkish	Turkish	Turkish	Turkic	Turkish
+Turkmen	Turkmen	Turkmen	Turkic	Turkmen
+Tuvan	Tuvan	Tuvan	Turkic	Tuvan
+Uyghur	Uyghur	Uyghur	Turkic	Uyghur
+Uzbek	Uzbek	Uzbek	Turkic	Uzbek
+WestYugur	WestYugur	WestYugur		
+Yakut	Yakut	Yakut	Turkic	Yakut
+AmamiAsama	Amami Asama	Amami Asama	Japonic	Asama (Tokunoshima) 
+AmamiYamatohama	Amami Yamatohama 	Amami Yamatohama 	Japonic	Yamatohama 
+AmamiYoron	Amami Yoron	Amami Yoron	Japonic	Mugiya-higashi (Yoron Island)  
+Baoan	Baoan	Baoan		
+Buriat	Buriat	Buriat		
+Dagur	Dagur	Dagur		
+Dongxian	Dongxian	Dongxian		
+EasternEvenki	Eastern Evenki 	Eastern Evenki 		
+Even	Even	Even	Tungusic	Even
+EvenkiKamnigan	Evenki (Kamnigan)	Evenki (Kamnigan)	Tungusic	Evenki
+Fukuoka	Fukuoka	Fukuoka		
+Gangwon	Gangwon	Gangwon		
+Gyeonggi	Gyeonggi	Gyeonggi		
+Hachijo	Hachijo	Hachijo		
+Hezhe	Hezhe	Hezhe		
+Huzhu	Huzhu	Huzhu		
+Hwanghae	Hwanghae	Hwanghae		
+Japanese	Japanese	Japanese	Japonic	
+Jeju	Jeju	Jeju		
+Jurchen	Jurchen	Jurchen	Tungusic	Jurchen
+Kagoshima	Kagoshima	Kagoshima		
+Kalmyck	Kalmyck	Kalmyck		
+Kamnigan	Kamnigan	Kamnigan		
+Kangjia	Kangjia	Kangjia		
+Khalkha	Khalkha	Khalkha		
+Korean	Korean	Korean	Korean	Korean
+Koshikiislands	Koshiki islands	Koshiki islands		
+Kumamoto	Kumamoto	Kumamoto		
+KurUrmi	Kur-Urmi	Kur-Urmi		
+LateMiddleKorean	(Late) Middle Korean	(Late) Middle Korean	Korean	Middle Korean
+Manchu	Manchu	Manchu	Tungusic	Manchu
+MiddleMongolianMuqaddimataladab	Middle Mongolian (Muqaddimat al-adab)	Middle Mongolian (Muqaddimat al-adab)		
+MiddleMongolianSecretHistory	Middle Mongolian (Secret History)	Middle Mongolian (Secret History)		
+Minhe	Minhe	Minhe		
+MiyakoIrabu	Miyako Irabu	Miyako Irabu		
+Moghol	Moghol	Moghol		
+NanaiBikin	Nanai (Bikin)	Nanai (Bikin)	Tungusic	Nanai
+NanaiMiddleAmur	Nanai (Middle Amur)	Nanai (Middle Amur)		
+Negidal	Negidal	Negidal	Tungusic	Negidal
+NorthernChungcheong	Northern Chungcheong	Northern Chungcheong		
+NorthernEvenkiTura	Northern Evenki (Tura)	Northern Evenki (Tura)		
+NorthernEvenkiTutonchany	Northern Evenki (Tutonchany)	Northern Evenki (Tutonchany)		
+NorthernGyeongsang	Northern Gyeongsang	Northern Gyeongsang		
+NorthernHamgyong	Northern Hamgyong	Northern Hamgyong		
+NorthernJeolla	Northern Jeolla	Northern Jeolla		
+NorthernPyongan	Northern Pyongan	Northern Pyongan		
+Oirat	Oirat	Oirat		
+OkinawaShuri	Okinawa Shuri	Okinawa Shuri	Japonic	Shuri (Southern Okinawa) form
+OkinawaYonamine	Okinawa Yonamine	Okinawa Yonamine	Japonic	Yonamine (Nakijin-son, Northern Okinawa)  
+OldJapanese	Old Japanese	Old Japanese	Japonic	Old Japanese
+Oroch	Oroch	Oroch	Tungusic	Oroch
+Orok	Orok	Orok	Tungusic	Orok
+Oroqen	Oroqen	Oroqen	Tungusic	Oroqen
+ShiraYughur	Shira-Yughur	Shira-Yughur		
+Solon	Solon	Solon	Tungusic	Solon
+SouthernChungcheong	Southern Chungcheong	Southern Chungcheong		
+SouthernEvenkiChiringda	Southern Evenki (Chiringda)	Southern Evenki (Chiringda)		
+SouthernEvenkiVershinaTuturyBaikal	Southern Evenki  (Vershina-Tutury, Baikal)	Southern Evenki  (Vershina-Tutury, Baikal)		
+SouthernGyeongsang	Southern Gyeongsang	Southern Gyeongsang		
+SouthernHamgyong	Southern Hamgyong	Southern Hamgyong		
+SouthernJeolla	Southern Jeolla	Southern Jeolla		
+SouthernPyongan	Southern Pyongan	Southern Pyongan		
+StonyEvenkiPTPodkamennayaTunguska	Stony Evenki (PT = Podkamennaya Tunguska)	Stony Evenki (PT = Podkamennaya Tunguska)		
+Udihe	Udihe	Udihe	Tungusic	Udihe
+Ulcha	Ulcha	Ulcha	Tungusic	Ulcha
+Xibe	Xibe	Xibe	Tungusic	Xibe
+YaeyamaHatoma	Yaeyama Hatoma	Yaeyama Hatoma	Japonic	Hatoma
+YaeyamaIshigaki	Yaeyama Ishigaki	Yaeyama Ishigaki	Japonic	Ishigaki
+Yonaguni	Yonaguni	Yonaguni	Japonic	Yonaguni
+Kyengsang	Kyengsang		Korean	 Kyengsang = Kyǒngsang = KS
+Cennam	Cennam		Korean	Cennam  = Chǒnnam = JN
+Cenpwuk	Cenpwuk		Korean	Cenpwuk  = Chǒnbuk = JB
+Ceycwu	Ceycwu		Korean	Ceycwu =  Cheju= JJ
+Chwungcengnamto	Chwungcengnamto		Korean	Chwungcengnamto  = Ch’ungchǒngnamdo = CN
+Chwungpwuk	Chwungpwuk		Korean	Chwungpwuk =  Ch’ungbuk  = CB
+Hamkyengnamto	Hamkyengnamto		Korean	Hamkyengnamto = Hamgyŏngnamdo = HN
+Hamkyengpukto	Hamkyengpukto		Korean	Hamkyengpukto = Hamgyŏngbukdo = HB
+Kangwento	Kangwento		Korean	Kangwento  = Kangwǒndo = KW
+Kyengki	Kyengki		Korean	Kyengki = Kyǒnggi = KG
+Kyengnam	Kyengnam		Korean	Kyengnam = Kyǒngnam =KN
+Kyengpwuk	Kyengpwuk		Korean	Kyengpwuk = Kyǒngbuk = KB
+Pyengannamto	Pyengannamto		Korean	Pyengannamto = P’yŏngannamdo = PN
+Pyenganpukto	Pyenganpukto		Korean	Pyenganpukto = P’yŏnganbukdo = PB
+Kohama	Kohama		Japonic	Kohama
+Hateruma	Hateruma		Japonic	Hateruma
+Hirara	Hirara		Japonic	Hirara
+Ikema	Ikema		Japonic	Ikema
+Old Shuri	Old Shuri		Japonic	Old Shuri
+Proto-Japonic	Proto-Japonic		Japonic	Proto-Japonic
+Proto-MY	Proto-MY		Japonic	Proto-MY
+Proto-RK	Proto-RK		Japonic	Proto-RK
+Proto-SK	Proto-SK		Japonic	Proto-SK
+Proto-YM	Proto-YM		Japonic	Proto-YM
+Taketomi	Taketomi		Japonic	Taketomi
+Ogami	Ōgami		Japonic	Ōgami

@@ -5,485 +5,375 @@
 
 | Segment | Occurrence | BIPA | CLTS SoundClass |
 |:----------|-------------:|:-------|:------------------|
-| a | 11680 | ✓ | ✓ |
-| u | 7469 | ✓ | ✓ |
-| i | 7170 | ✓ | ✓ |
-| n | 6663 | ✓ | ✓ |
-| <?> | 5833 | ? | ? |
-| r | 5301 | ✓ | ✓ |
-| k | 5049 | ✓ | ✓ |
-| t | 5014 | ✓ | ✓ |
-| l | 4645 | ✓ | ✓ |
-| o | 4247 | ✓ | ✓ |
-| e | 4104 | ✓ | ✓ |
-| m | 3707 | ✓ | ✓ |
-| s | 3401 | ✓ | ✓ |
-| b | 2593 | ✓ | ✓ |
-| d | 2494 | ✓ | ✓ |
-| ə | 2416 | ✓ | ✓ |
-| g | 2344 | ✓ | ✓ |
-| h | 1733 | ✓ | ✓ |
-| ï | 1699 | ✓ | ✓ |
-| p | 1561 | ✓ | ✓ |
-| ḳ | 1397 | ? | ? |
-| _ | 1194 | ✓ | ✓ |
-| č | 1100 | ? | ? |
-| c | 1067 | ✓ | ✓ |
-| ŋ | 1018 | ✓ | ✓ |
-| ü | 1002 | ✓ | ✓ |
-| j | 996 | ✓ | ✓ |
-| š | 957 | ? | ? |
-| aː | 880 | ✓ | ✓ |
-| ɴ | 846 | ✓ | ✓ |
-| z | 764 | ✓ | ✓ |
-| ay | 750 | ✓ | ✓ |
-| w | 681 | ✓ | ✓ |
-| ö | 657 | ✓ | ✓ |
-| uː | 589 | ✓ | ✓ |
+| a | 12376 | ✓ | ✓ |
+| u | 7625 | ✓ | ✓ |
+| i | 7388 | ✓ | ✓ |
+| n | 6772 | ✓ | ✓ |
+| r | 5337 | ✓ | ✓ |
+| k | 5150 | ✓ | ✓ |
+| t | 5054 | ✓ | ✓ |
+| l | 4719 | ✓ | ✓ |
+| e | 4462 | ✓ | ✓ |
+| o | 4361 | ✓ | ✓ |
+| s | 4116 | ✓ | ✓ |
+| m | 3883 | ✓ | ✓ |
+| b | 2588 | ✓ | ✓ |
+| ə | 2501 | ✓ | ✓ |
+| d | 2495 | ✓ | ✓ |
+| g | 2427 | ✓ | ✓ |
+| h | 1912 | ✓ | ✓ |
+| ï/ɨ | 1790 | ✓ | ✓ |
+| p | 1643 | ✓ | ✓ |
+| + | 1418 | ✓ | ✓ |
+| ḳ/q | 1400 | ✓ | ✓ |
+| y/j | 1379 | ✓ | ✓ |
+| w | 1299 | ✓ | ✓ |
+| č/tʃ | 1100 | ✓ | ✓ |
+| ü/y | 1080 | ✓ | ✓ |
+| c/ts | 1066 | ✓ | ✓ |
+| ŋ | 1030 | ✓ | ✓ |
+| j | 1003 | ✓ | ✓ |
+| š/ʃ | 956 | ✓ | ✓ |
+| aː | 903 | ✓ | ✓ |
+| ɴ | 855 | ✓ | ✓ |
+| z | 765 | ✓ | ✓ |
+| ay/ai | 749 | ✓ | ✓ |
+| ö/œ | 700 | ✓ | ✓ |
+| uː | 596 | ✓ | ✓ |
+| iː | 521 | ✓ | ✓ |
 | ɣ | 515 | ✓ | ✓ |
-| iː | 510 | ✓ | ✓ |
-| x | 478 | ✓ | ✓ |
-| oː | 476 | ✓ | ✓ |
+| x | 491 | ✓ | ✓ |
+| oː | 484 | ✓ | ✓ |
 | dʒ | 383 | ✓ | ✓ |
-| ä | 355 | ✓ | ✓ |
-| ya | 339 | ✓ | ✓ |
-| y | 334 | ✓ | ✓ |
-| χ | 326 | ✓ | ✓ |
-| kk | 310 | ✓ | ✓ |
-| f | 286 | ✓ | ✓ |
-| v | 275 | ✓ | ✓ |
-| eː | 273 | ✓ | ✓ |
-| tt | 249 | ✓ | ✓ |
-| ye | 226 | ✓ | ✓ |
-| ń | 218 | ? | ? |
+| ä/æ | 375 | ✓ | ✓ |
+| χ | 330 | ✓ | ✓ |
+| kː | 310 | ✓ | ✓ |
+| ʔ | 290 | ✓ | ✓ |
+| f | 285 | ✓ | ✓ |
+| eː | 280 | ✓ | ✓ |
+| v | 272 | ✓ | ✓ |
+| tː | 249 | ✓ | ✓ |
+| ń/n | 218 | ✓ | ✓ |
 | tʰ | 213 | ✓ | ✓ |
-| ǰ | 211 | ? | ? |
-| ey | 197 | ✓ | ✓ |
-| Ɂ | 187 | ? | ? |
-| ch | 180 | ? | ? |
+| ǰ/dʒ | 211 | ✓ | ✓ |
+| ey/ei | 205 | ✓ | ✓ |
+| ɔ | 196 | ✓ | ✓ |
+| ɢ | 189 | ✓ | ✓ |
+| ai | 180 | ✓ | ✓ |
+| ch/tʃ | 180 | ✓ | ✓ |
 | kʰ | 174 | ✓ | ✓ |
 | q | 168 | ✓ | ✓ |
-| ai | 164 | ✓ | ✓ |
-| cc | 164 | ✓ | ✓ |
-| ž | 156 | ? | ? |
-| ɘ | 155 | ✓ | ✓ |
-| ɔ | 149 | ✓ | ✓ |
+| cc/tsː | 164 | ✓ | ✓ |
+| ž/ʒ | 156 | ✓ | ✓ |
+| ɘ | 156 | ✓ | ✓ |
+| u/w | 155 | ✓ | ✓ |
+| i/j | 154 | ✓ | ✓ |
 | pʰ | 147 | ✓ | ✓ |
-| pp | 144 | ✓ | ✓ |
-| ss | 141 | ? | ? |
+| ị/ɨ | 145 | ✓ | ✓ |
+| pː | 144 | ✓ | ✓ |
+| ɕ | 142 | ✓ | ✓ |
+| sː | 141 | ✓ | ✓ |
+| əː | 141 | ✓ | ✓ |
 | kʷ | 140 | ✓ | ✓ |
-| əː | 140 | ✓ | ✓ |
-| ị | 137 | ? | ? |
-| mw | 136 | ? | ? |
-| ɕ | 136 | ✓ | ✓ |
-| oy | 124 | ✓ | ✓ |
-| ụ | 116 | ? | ? |
-| ui | 107 | ✓ | ✓ |
-| ll | 106 | ? | ? |
-| ks | 98 | ? | ? |
+| oy/oi | 124 | ✓ | ✓ |
+| ụ/u | 116 | ✓ | ✓ |
+| ui | 108 | ✓ | ✓ |
+| lː | 106 | ✓ | ✓ |
 | ts | 98 | ✓ | ✓ |
-| yu | 93 | ✓ | ✓ |
-| è | 91 | ✓ | ✓ |
+| è/e | 95 | ✓ | ✓ |
 | ɵ | 91 | ✓ | ✓ |
-| sw | 88 | ? | ? |
-| nn | 84 | ? | ? |
-| ïs | 81 | ? | ? |
+| üː/yː | 86 | ✓ | ✓ |
+| nː | 84 | ✓ | ✓ |
+| ọ/o | 83 | ✓ | ✓ |
 | dʑ | 80 | ✓ | ✓ |
 | ɨ | 80 | ✓ | ✓ |
-| üː | 79 | ✓ | ✓ |
-| ia | 78 | ✓ | ✓ |
-| cw | 77 | ? | ? |
-| ọ | 77 | ? | ? |
-| uy | 75 | ✓ | ✓ |
-| ʔ | 75 | ✓ | ✓ |
-| nw | 74 | ? | ? |
-| ś | 74 | ? | ? |
-| üs | 72 | ? | ? |
-| pw | 71 | ? | ? |
-| gh | 66 | ? | ? |
-| iy | 65 | ✓ | ✓ |
+| c | 77 | ✓ | ✓ |
+| uy/ui | 74 | ✓ | ✓ |
+| ĭ/i | 74 | ✓ | ✓ |
+| ś/ʃ | 74 | ✓ | ✓ |
+| A/a | 70 | ✓ | ✓ |
+| iy/i | 65 | ✓ | ✓ |
 | tɕ | 65 | ✓ | ✓ |
-| ĭ | 64 | ✓ | ✓ |
-| aya | 62 | ? | ? |
-| u̥ | 61 | ✓ | ✓ |
+| u̥/u | 61 | ✓ | ✓ |
+| öː/œː | 58 | ✓ | ✓ |
 | əi | 57 | ✓ | ✓ |
-| iə | 56 | ✓ | ✓ |
-| tw | 56 | ? | ? |
-| ua | 55 | ✓ | ✓ |
-| ie | 52 | ✓ | ✓ |
-| i̥ | 52 | ✓ | ✓ |
-| lh | 51 | ? | ? |
+| ʕ | 54 | ✓ | ✓ |
+| ǯ/dʒ | 53 | ✓ | ✓ |
+| i̥/i | 51 | ✓ | ✓ |
 | ɯ | 51 | ✓ | ✓ |
+| ao | 50 | ✓ | ✓ |
 | ɨː | 50 | ✓ | ✓ |
-| rs | 49 | ? | ? |
-| yo | 48 | ✓ | ✓ |
-| öː | 48 | ✓ | ✓ |
-| au | 45 | ✓ | ✓ |
-| yi | 45 | ✓ | ✓ |
-| ň | 43 | ? | ? |
+| au | 46 | ✓ | ✓ |
+| ʒ | 44 | ✓ | ✓ |
+| ň/n | 43 | ✓ | ✓ |
+| ʃ | 43 | ✓ | ✓ |
 | ei | 42 | ✓ | ✓ |
-| ms | 41 | ? | ? |
-| ös | 41 | ? | ? |
-| ʃ | 41 | ✓ | ✓ |
-| ʒ | 40 | ✓ | ✓ |
+| ’/ʔ | 42 | ✓ | ✓ |
 | tʃ | 39 | ✓ | ✓ |
-| uo | 39 | ✓ | ✓ |
-| ao | 38 | ✓ | ✓ |
-| sh | 37 | ? | ? |
-| û | 37 | ✓ | ✓ |
+| ph/pʰ | 38 | ✓ | ✓ |
+| sh/ʃ | 37 | ✓ | ✓ |
+| əʷ/əu | 36 | ✓ | ✓ |
+| û/u | 35 | ✓ | ✓ |
+| ɛ | 35 | ✓ | ✓ |
+| ọː/oː | 35 | ✓ | ✓ |
 | dz | 34 | ✓ | ✓ |
-| əʷ | 34 | ? | ? |
 | ʂ | 34 | ✓ | ✓ |
 | θ | 33 | ✓ | ✓ |
-| ọː | 33 | ? | ? |
-| nh | 32 | ? | ? |
-| phw | 31 | ? | ? |
-| à | 31 | ✓ | ✓ |
-| ɛ | 31 | ✓ | ✓ |
+| à/a | 31 | ✓ | ✓ |
+| ŭ/u | 29 | ✓ | ✓ |
 | ɖʐ | 29 | ✓ | ✓ |
 | ʁ | 29 | ✓ | ✓ |
 | oi | 27 | ✓ | ✓ |
-| rh | 27 | ? | ? |
+| rh/rʰ | 27 | ✓ | ✓ |
+| yy/jː | 27 | ✓ | ✓ |
 | ʉ | 27 | ✓ | ✓ |
-| hw | 26 | ? | ? |
-| mh | 26 | ? | ? |
-| ŭ | 26 | ✓ | ✓ |
-| io | 25 | ✓ | ✓ |
-| á | 25 | ✓ | ✓ |
-| â | 25 | ✓ | ✓ |
-| ïï | 25 | ✓ | ✓ |
-| äː | 24 | ✓ | ✓ |
-| ue | 23 | ✓ | ✓ |
-| yː | 23 | ✓ | ✓ |
-| ù | 23 | ✓ | ✓ |
-| ú | 22 | ✓ | ✓ |
-| е | 22 | ? | ? |
-| iyi | 21 | ? | ? |
-| í | 21 | ✓ | ✓ |
-| ïː | 21 | ✓ | ✓ |
-| chw | 20 | ? | ? |
-| iu | 20 | ✓ | ✓ |
-| uə | 20 | ✓ | ✓ |
-| ɘʷ | 20 | ? | ? |
-| ayi | 19 | ? | ? |
-| ou | 19 | ✓ | ✓ |
-| äs | 19 | ? | ? |
+| hw/hʷ | 26 | ✓ | ✓ |
+| mh/mʰ | 26 | ✓ | ✓ |
+| â/a | 26 | ✓ | ✓ |
+| äː/æː | 26 | ✓ | ✓ |
+| á/a | 25 | ✓ | ✓ |
+| ïï/ɨː | 25 | ✓ | ✓ |
+| ď/d | 24 | ✓ | ✓ |
+| '/ʔ | 23 | ✓ | ✓ |
+| ù/u | 23 | ✓ | ✓ |
+| κ/q | 23 | ✓ | ✓ |
+| ou | 22 | ✓ | ✓ |
+| í/i | 22 | ✓ | ✓ |
+| ïː/ɨː | 22 | ✓ | ✓ |
+| ú/u | 22 | ✓ | ✓ |
+| δ/ð | 22 | ✓ | ✓ |
+| е/e | 22 | ✓ | ✓ |
+| ɔː | 21 | ✓ | ✓ |
+| ch/x | 20 | ✓ | ✓ |
+| ɘʷ/əu | 20 | ✓ | ✓ |
 | əu | 19 | ✓ | ✓ |
-| + | 18 | ✓ | ✓ |
-| gs | 18 | ? | ? |
+| K/q | 18 | ✓ | ✓ |
 | ɸ | 18 | ✓ | ✓ |
-| ns | 17 | ? | ? |
 | oa | 17 | ✓ | ✓ |
 | ø | 17 | ✓ | ✓ |
-| eyi | 16 | ? | ? |
-| ls | 16 | ? | ? |
-| mm | 16 | ? | ? |
-| uya | 16 | ? | ? |
-| zh | 16 | ? | ? |
-| ì | 16 | ✓ | ✓ |
+| ō/oː | 17 | ✓ | ✓ |
+| mː | 16 | ✓ | ✓ |
+| zh/ʒ | 16 | ✓ | ✓ |
+| ì/i | 16 | ✓ | ✓ |
+| ĕ/e | 16 | ✓ | ✓ |
 | ʈʂ | 16 | ✓ | ✓ |
-| aˤ | 15 | ✓ | ✓ |
-| msw | 15 | ? | ? |
-| uai | 15 | ? | ? |
-| ḁː | 15 | ✓ | ✓ |
-| oyu | 14 | ? | ? |
-| ĕ | 14 | ✓ | ✓ |
-| ō | 14 | ✓ | ✓ |
-| <<:>> | 13 | ? | ? |
-| eye | 13 | ? | ? |
-| gg | 13 | ✓ | ✓ |
-| t́ | 13 | ? | ? |
-| öö | 13 | ✓ | ✓ |
-| čč | 13 | ? | ? |
-| ɔː | 13 | ✓ | ✓ |
+| τ/t | 16 | ✓ | ✓ |
+| aˤ/a | 15 | ✓ | ✓ |
+| ȧ/a | 15 | ✓ | ✓ |
+| ḁː/aː | 15 | ✓ | ✓ |
+| O/o | 14 | ✓ | ✓ |
+| gg/gː | 13 | ✓ | ✓ |
+| t́/t | 13 | ✓ | ✓ |
+| yː | 13 | ✓ | ✓ |
+| öö/œː | 13 | ✓ | ✓ |
+| čč/tʃː | 13 | ✓ | ✓ |
 | ɲ | 13 | ✓ | ✓ |
+| C/ts | 12 | ✓ | ✓ |
 | ea | 12 | ✓ | ✓ |
 | ç | 12 | ✓ | ✓ |
-| šš | 12 | ? | ? |
-| ayya | 11 | ? | ? |
-| hs | 11 | ? | ? |
-| vs | 11 | ? | ? |
-| yaː | 11 | ✓ | ✓ |
-| dd | 10 | ✓ | ✓ |
-| ff | 10 | ? | ? |
-| k̚ | 10 | ✓ | ✓ |
-| üü | 10 | ✓ | ✓ |
-| ĭs | 10 | ? | ? |
-| ŋs | 10 | ? | ? |
-| ŋŋ | 10 | ? | ? |
-| ǵ | 10 | ? | ? |
+| šš/ʃː | 12 | ✓ | ✓ |
+| ʌ | 12 | ✓ | ✓ |
+| ss/sː | 11 | ✓ | ✓ |
+| üü/yː | 11 | ✓ | ✓ |
+| γ/ɣ | 11 | ✓ | ✓ |
+| dd/dː | 10 | ✓ | ✓ |
+| ff/fː | 10 | ✓ | ✓ |
+| k̚/k | 10 | ✓ | ✓ |
+| ïˤ/ɨ | 10 | ✓ | ✓ |
+| ħ | 10 | ✓ | ✓ |
+| ŋŋ/ŋː | 10 | ✓ | ✓ |
+| ǵ/ɢ | 10 | ✓ | ✓ |
 | ɵː | 10 | ✓ | ✓ |
 | β | 10 | ✓ | ✓ |
-| aːa | 9 | ✓ | ✓ |
-| bs | 9 | ? | ? |
-| eya | 9 | ? | ? |
-| eˤ | 9 | ✓ | ✓ |
-| lw | 9 | ? | ? |
-| ps | 9 | ? | ? |
-| yɔ | 9 | ✓ | ✓ |
-| ëë | 9 | ✓ | ✓ |
-| ā | 9 | ✓ | ✓ |
-| ħ | 9 | ✓ | ✓ |
-| ɴs | 9 | ? | ? |
-| <<ʌ>> | 8 | ? | ? |
-| bb | 8 | ✓ | ✓ |
-| iye | 8 | ? | ? |
-| oˤ | 8 | ✓ | ✓ |
-| yey | 8 | ? | ? |
-| ïˤ | 8 | ✓ | ✓ |
-| öːs | 8 | ? | ? |
+| eu | 9 | ✓ | ✓ |
+| eˤ/e | 9 | ✓ | ✓ |
+| ëë/əː | 9 | ✓ | ✓ |
+| ā/aː | 9 | ✓ | ✓ |
+| ź/ʒ | 9 | ✓ | ✓ |
+| bb/bː | 8 | ✓ | ✓ |
 | ɒː | 8 | ✓ | ✓ |
-| а | 8 | ? | ? |
-| __ | 7 | ? | ? |
-| iˤ | 7 | ✓ | ✓ |
-| phs | 7 | ? | ? |
-| rr | 7 | ? | ? |
-| xs | 7 | ? | ? |
+| а/a | 8 | ✓ | ✓ |
+| iˤ/i | 7 | ✓ | ✓ |
+| oˤ/o | 7 | ✓ | ✓ |
+| rr/rː | 7 | ✓ | ✓ |
 | æ | 7 | ✓ | ✓ |
-| ïh | 7 | ? | ? |
-| öw | 7 | ? | ? |
-| üːs | 7 | ? | ? |
-| Ɂw | 7 | ? | ? |
-| <<­>> | 6 | ? | ? |
+| î/i | 7 | ✓ | ✓ |
+| öw/œu | 7 | ✓ | ✓ |
+| öˤ/œ | 7 | ✓ | ✓ |
+| π/p | 7 | ✓ | ✓ |
 | ae | 6 | ✓ | ✓ |
-| aːy | 6 | ✓ | ✓ |
-| iːe | 6 | ✓ | ✓ |
-| ksw | 6 | ? | ? |
-| oyo | 6 | ? | ? |
-| rw | 6 | ? | ? |
-| uˤ | 6 | ✓ | ✓ |
-| î | 6 | ✓ | ✓ |
-| ïss | 6 | ? | ? |
-| ɢ | 6 | ✓ | ✓ |
-| р | 6 | ? | ? |
-| ịs | 6 | ? | ? |
-| ọs | 6 | ? | ? |
+| uˤ/u | 6 | ✓ | ✓ |
+| р/r | 6 | ✓ | ✓ |
+| aiː | 5 | ✓ | ✓ |
 | auː | 5 | ✓ | ✓ |
-| d́ | 5 | ? | ? |
-| eu | 5 | ✓ | ✓ |
-| iao | 5 | ? | ? |
-| oya | 5 | ? | ? |
+| d́/d | 5 | ✓ | ✓ |
 | sˀ | 5 | ✓ | ✓ |
-| thw | 5 | ? | ? |
-| ïw | 5 | ? | ? |
+| th/tʰ | 5 | ✓ | ✓ |
+| ïw/ɨu | 5 | ✓ | ✓ |
 | ɒ | 5 | ✓ | ✓ |
 | ʑ | 5 | ✓ | ✓ |
-| <<'>> | 4 | ? | ? |
-| aiː | 4 | ✓ | ✓ |
-| euy | 4 | ? | ? |
-| iya | 4 | ? | ? |
-| iɛ | 4 | ✓ | ✓ |
-| uye | 4 | ? | ? |
-| yeː | 4 | ✓ | ✓ |
-| yʌ | 4 | ✓ | ✓ |
-| üʒ | 4 | ? | ? |
-| śś | 4 | ? | ? |
-| ū | 4 | ✓ | ✓ |
+| д/d | 5 | ✓ | ✓ |
+| ?/ʔ | 4 | ✓ | ✓ |
+| E/e | 4 | ✓ | ✓ |
+| S/s | 4 | ✓ | ✓ |
+| T/t | 4 | ✓ | ✓ |
+| aːy/aːi | 4 | ✓ | ✓ |
+| śś/ʃː | 4 | ✓ | ✓ |
+| ū/uː | 4 | ✓ | ✓ |
 | ɛi | 4 | ✓ | ✓ |
-| χs | 4 | ? | ? |
-| ḳs | 4 | ? | ? |
-| ḳḳ | 4 | ? | ? |
-| ayə | 3 | ? | ? |
+| ḳḳ/qː | 4 | ✓ | ✓ |
+| ụː/uː | 4 | ✓ | ✓ |
+| V/v | 3 | ✓ | ✓ |
 | bˀ | 3 | ✓ | ✓ |
 | cˀ | 3 | ✓ | ✓ |
-| iɔ | 3 | ✓ | ✓ |
-| js | 3 | ? | ? |
 | oe | 3 | ✓ | ✓ |
-| oyi | 3 | ? | ? |
-| pʰpʰ | 3 | ✓ | ✓ |
+| phph/pʰː | 3 | ✓ | ✓ |
 | uiː | 3 | ✓ | ✓ |
-| vv | 3 | ? | ? |
-| yao | 3 | ? | ? |
-| yə | 3 | ✓ | ✓ |
-| áa | 3 | ✓ | ✓ |
-| ès | 3 | ? | ? |
-| ë | 3 | ✓ | ✓ |
-| íi | 3 | ✓ | ✓ |
-| öˤ | 3 | ✓ | ✓ |
-| öˤs | 3 | ? | ? |
-| ŋh | 3 | ? | ? |
-| ŭs | 3 | ? | ? |
-| ɔy | 3 | ✓ | ✓ |
-| ɴɴ | 3 | ? | ? |
-| ʒʹ | 3 | ? | ? |
-| ụː | 3 | ? | ? |
-| 'č | 2 | ? | ? |
-| <<˳>> | 2 | ? | ? |
+| vv/vː | 3 | ✓ | ✓ |
+| áa/aː | 3 | ✓ | ✓ |
+| äw/æu | 3 | ✓ | ✓ |
+| ë/ə | 3 | ✓ | ✓ |
+| íi/iː | 3 | ✓ | ✓ |
+| ŋh/ŋʰ | 3 | ✓ | ✓ |
+| ş/ʃ | 3 | ✓ | ✓ |
+| ɔy/ɔi | 3 | ✓ | ✓ |
+| ɴɴ/ɴː | 3 | ✓ | ✓ |
+| ʐ | 3 | ✓ | ✓ |
+| ʒʹ/ʒˀ | 3 | ✓ | ✓ |
+| ˀg | 3 | ✓ | ✓ |
+| ˀk | 3 | ✓ | ✓ |
+| ˀs | 3 | ✓ | ✓ |
+| μ/m | 3 | ✓ | ✓ |
+| б/b | 3 | ✓ | ✓ |
+| н/ʜ | 3 | ✓ | ✓ |
+| э/ɜ | 3 | ✓ | ✓ |
+| 'č/ˀtʃ | 2 | ✓ | ✓ |
+| G/ɢ | 2 | ✓ | ✓ |
+| aay/aːi | 2 | ✓ | ✓ |
 | aoː | 2 | ✓ | ✓ |
-| aye | 2 | ? | ? |
-| ayu | 2 | ? | ? |
-| ayɔ | 2 | ? | ? |
-| aːay | 2 | ? | ? |
-| bh | 2 | ? | ? |
+| aːay/aːi | 2 | ✓ | ✓ |
+| bh/bʰ | 2 | ✓ | ✓ |
 | eːi | 2 | ✓ | ✓ |
-| iːi | 2 | ✓ | ✓ |
-| jj | 2 | ? | ? |
-| nɕ | 2 | ? | ? |
-| oːy | 2 | ✓ | ✓ |
-| pss | 2 | ? | ? |
-| uyu | 2 | ? | ? |
+| jj/dʒː | 2 | ✓ | ✓ |
+| o:y/oːi | 2 | ✓ | ✓ |
+| r̥/r | 2 | ✓ | ✓ |
 | uːo | 2 | ✓ | ✓ |
-| uːy | 2 | ✓ | ✓ |
-| vh | 2 | ? | ? |
-| ws | 2 | ? | ? |
-| ww | 2 | ? | ? |
-| xw | 2 | ? | ? |
-| x́ | 2 | ? | ? |
-| yaya | 2 | ? | ? |
-| yuːu | 2 | ? | ? |
-| äw | 2 | ? | ? |
-| äːs | 2 | ? | ? |
-| ïˤs | 2 | ? | ? |
-| öh | 2 | ? | ? |
-| öːh | 2 | ? | ? |
+| uːy/uːi | 2 | ✓ | ✓ |
+| ww/wː | 2 | ✓ | ✓ |
+| x́/x | 2 | ✓ | ✓ |
 | øː | 2 | ✓ | ✓ |
-| úu | 2 | ✓ | ✓ |
-| ē | 2 | ✓ | ✓ |
-| ĕs | 2 | ? | ? |
-| ī | 2 | ✓ | ✓ |
-| ōs | 2 | ? | ? |
-| šh | 2 | ? | ? |
+| úu/uː | 2 | ✓ | ✓ |
+| üˤ/y | 2 | ✓ | ✓ |
+| ć/tʃ | 2 | ✓ | ✓ |
+| ē/eː | 2 | ✓ | ✓ |
+| ė/e | 2 | ✓ | ✓ |
+| ī/iː | 2 | ✓ | ✓ |
+| šh/ʃʰ | 2 | ✓ | ✓ |
 | ȵ | 2 | ✓ | ✓ |
-| əiə | 2 | ? | ? |
-| əʷy | 2 | ? | ? |
+| ɛː | 2 | ✓ | ✓ |
 | ɬ | 2 | ✓ | ✓ |
-| ɸɸ | 2 | ? | ? |
-| ʉi | 2 | ✓ | ✓ |
-| ʐ | 2 | ✓ | ✓ |
-| ʕ | 2 | ✓ | ✓ |
-| ʤʤ | 2 | ? | ? |
-| ḁ | 2 | ✓ | ✓ |
-| ọːs | 2 | ? | ? |
-| '_s | 1 | ? | ? |
-| 'ès | 1 | ? | ? |
-| 'üs | 1 | ? | ? |
-| 'ǰ | 1 | ? | ? |
-| <<D>> | 1 | ? | ? |
-| <<T>> | 1 | ? | ? |
-| <<V>> | 1 | ? | ? |
-| <<Ï>> | 1 | ? | ? |
-| <<ã>> | 1 | ? | ? |
-| <<ħ>> | 1 | ? | ? |
-| <<ʊ>> | 1 | ? | ? |
-| <<ʾ>> | 1 | ? | ? |
-| <<в>> | 1 | ? | ? |
-| <<и>> | 1 | ? | ? |
-| <<ш>> | 1 | ? | ? |
-| <<э>> | 1 | ? | ? |
-| aiyou | 1 | ? | ? |
-| ayie | 1 | ? | ? |
+| ɸɸ/ɸː | 2 | ✓ | ✓ |
+| ʙ | 2 | ✓ | ✓ |
+| ʤʤ/dʒː | 2 | ✓ | ✓ |
+| ˀɣ | 2 | ✓ | ✓ |
+| г/g | 2 | ✓ | ✓ |
+| ж/ʒ | 2 | ✓ | ✓ |
+| ш/ʃ | 2 | ✓ | ✓ |
+| ḁ/a | 2 | ✓ | ✓ |
+| 'y/ˀj | 1 | ✓ | ✓ |
+| 'ǰ/ˀdʒ | 1 | ✓ | ✓ |
+| 'ж/ˀʒ | 1 | ✓ | ✓ |
+| B/ʙ | 1 | ✓ | ✓ |
+| D/d | 1 | ✓ | ✓ |
+| U/u | 1 | ✓ | ✓ |
 | aə | 1 | ✓ | ✓ |
 | aɪ | 1 | ✓ | ✓ |
 | aʊ | 1 | ✓ | ✓ |
 | aːe | 1 | ✓ | ✓ |
 | aːi | 1 | ✓ | ✓ |
-| aỹa | 1 | ? | ? |
-| bɕ | 1 | ? | ? |
-| cs | 1 | ? | ? |
-| dw | 1 | ? | ? |
+| c/s | 1 | ✓ | ✓ |
+| cs/ts | 1 | ✓ | ✓ |
 | dˀ | 1 | ✓ | ✓ |
 | eo | 1 | ✓ | ✓ |
-| eyiː | 1 | ? | ? |
-| eyo | 1 | ? | ? |
-| eyye | 1 | ? | ? |
 | eə | 1 | ✓ | ✓ |
 | eːa | 1 | ✓ | ✓ |
 | fˀ | 1 | ✓ | ✓ |
-| gw | 1 | ? | ? |
-| gʃ | 1 | ? | ? |
 | gˀ | 1 | ✓ | ✓ |
 | hˀ | 1 | ✓ | ✓ |
-| h̥ | 1 | ✓ | ✓ |
-| iou | 1 | ? | ? |
-| iyɘ | 1 | ? | ? |
-| iəa | 1 | ? | ? |
-| iɛː | 1 | ✓ | ✓ |
+| h̥/h | 1 | ✓ | ✓ |
+| ie | 1 | ✓ | ✓ |
+| iuː | 1 | ✓ | ✓ |
+| iʾə/iə | 1 | ✓ | ✓ |
 | iːy | 1 | ✓ | ✓ |
+| i̥/ɨ | 1 | ✓ | ✓ |
 | jˀ | 1 | ✓ | ✓ |
-| kssw | 1 | ? | ? |
-| lhw | 1 | ? | ? |
+| lh/lʰ | 1 | ✓ | ✓ |
 | nˀ | 1 | ✓ | ✓ |
-| n̥ | 1 | ✓ | ✓ |
-| oua | 1 | ? | ? |
-| oyoː | 1 | ? | ? |
-| oyya | 1 | ? | ? |
+| n̥/n̥ | 1 | ✓ | ✓ |
 | oːi | 1 | ✓ | ✓ |
 | oːu | 1 | ✓ | ✓ |
-| oːyu | 1 | ? | ? |
 | pˀ | 1 | ✓ | ✓ |
-| ssw | 1 | ? | ? |
-| t̕ | 1 | ? | ? |
-| t̥ | 1 | ✓ | ✓ |
-| uayi | 1 | ? | ? |
-| uiyi | 1 | ? | ? |
-| uoy | 1 | ? | ? |
-| uoː | 1 | ✓ | ✓ |
-| uyɔ | 1 | ? | ? |
-| uyə | 1 | ? | ? |
-| uˀai | 1 | ? | ? |
-| uːu | 1 | ✓ | ✓ |
-| xɕ | 1 | ? | ? |
-| yau | 1 | ? | ? |
-| yay | 1 | ? | ? |
-| yaːa | 1 | ? | ? |
-| yeːe | 1 | ? | ? |
-| yiː | 1 | ✓ | ✓ |
-| yiːi | 1 | ? | ? |
-| yoː | 1 | ✓ | ✓ |
-| yue | 1 | ? | ? |
-| yuo | 1 | ? | ? |
-| yuː | 1 | ✓ | ✓ |
-| zw | 1 | ? | ? |
-| ái | 1 | ✓ | ✓ |
-| áː | 1 | ✓ | ✓ |
-| âs | 1 | ? | ? |
-| äh | 1 | ? | ? |
-| äws | 1 | ? | ? |
-| æy | 1 | ✓ | ✓ |
-| éː | 1 | ✓ | ✓ |
-| íyu | 1 | ? | ? |
-| îs | 1 | ? | ? |
-| ó | 1 | ✓ | ✓ |
-| öˤh | 1 | ? | ? |
+| t̕/t | 1 | ✓ | ✓ |
+| t̥/t | 1 | ✓ | ✓ |
+| ue | 1 | ✓ | ✓ |
+| uo | 1 | ✓ | ✓ |
+| uˀ/u | 1 | ✓ | ✓ |
+| Ï/ɨ | 1 | ✓ | ✓ |
+| ái/ai | 1 | ✓ | ✓ |
+| áː/aː | 1 | ✓ | ✓ |
+| ã | 1 | ✓ | ✓ |
+| æy/æi | 1 | ✓ | ✓ |
+| éː/eː | 1 | ✓ | ✓ |
+| ó/o | 1 | ✓ | ✓ |
 | øi | 1 | ✓ | ✓ |
-| úi | 1 | ✓ | ✓ |
-| üh | 1 | ? | ? |
-| üss | 1 | ? | ? |
-| üw | 1 | ? | ? |
-| üˤ | 1 | ✓ | ✓ |
-| üˤs | 1 | ? | ? |
-| ē̆ | 1 | ✓ | ✓ |
-| ı | 1 | ? | ? |
-| ńń | 1 | ? | ? |
-| ŋɕ | 1 | ? | ? |
-| ŋʐ | 1 | ? | ? |
+| úi/ui | 1 | ✓ | ✓ |
+| ûû/uː | 1 | ✓ | ✓ |
+| ē̆/e | 1 | ✓ | ✓ |
+| ı/ɨ | 1 | ✓ | ✓ |
+| ĺ/l | 1 | ✓ | ✓ |
+| ńń/nː | 1 | ✓ | ✓ |
 | ŋˀ | 1 | ✓ | ✓ |
-| ōh | 1 | ? | ? |
-| ǰǰ | 1 | ? | ? |
+| ƺ/ʒ | 1 | ✓ | ✓ |
+| ǟ/æː | 1 | ✓ | ✓ |
+| ǧ/ɢ | 1 | ✓ | ✓ |
+| ǰǰ/dʒː | 1 | ✓ | ✓ |
 | ɐʉ | 1 | ✓ | ✓ |
 | ɑ | 1 | ✓ | ✓ |
 | ɔi | 1 | ✓ | ✓ |
-| ɔya | 1 | ? | ? |
-| ɔyɔ | 1 | ? | ? |
+| əa | 1 | ✓ | ✓ |
+| əe | 1 | ✓ | ✓ |
 | əuː | 1 | ✓ | ✓ |
-| əya | 1 | ? | ? |
-| əyə | 1 | ? | ? |
-| ə́ | 1 | ✓ | ✓ |
+| ə́/ə | 1 | ✓ | ✓ |
 | ɛɪ | 1 | ✓ | ✓ |
-| ɛː | 1 | ✓ | ✓ |
-| ɣs | 1 | ? | ? |
+| ɢː | 1 | ✓ | ✓ |
 | ɪ | 1 | ✓ | ✓ |
 | ɿ | 1 | ✓ | ✓ |
+| ʉi | 1 | ✓ | ✓ |
+| ʉiː | 1 | ✓ | ✓ |
 | ʉː | 1 | ✓ | ✓ |
-| ʌ | 1 | ✓ | ✓ |
+| ʌʊ | 1 | ✓ | ✓ |
 | ʝ | 1 | ✓ | ✓ |
-| ʨh | 1 | ? | ? |
-| еː | 1 | ? | ? |
-| ịsịs | 1 | ? | ? |
-| ụh | 1 | ? | ? |
+| ʨh/tɕʰ | 1 | ✓ | ✓ |
+| ˀm | 1 | ✓ | ✓ |
+| ͻː/ɔː | 1 | ✓ | ✓ |
+| κκ/qː | 1 | ✓ | ✓ |
+| ττ/tː | 1 | ✓ | ✓ |
+| еː/e: | 1 | ✓ | ✓ |
+| з/ɜ | 1 | ✓ | ✓ |
+| и/i | 1 | ✓ | ✓ |
+| к/q | 1 | ✓ | ✓ |
+| л/l | 1 | ✓ | ✓ |
+| ф/ɸ | 1 | ✓ | ✓ |
+| ч/tʃ | 1 | ✓ | ✓ |
+| ы/ɨ | 1 | ✓ | ✓ |
+| ё/ə | 1 | ✓ | ✓ |
+| ө/θ | 1 | ✓ | ✓ |
+| ḿ/m | 1 | ✓ | ✓ |
+| ẹ/e | 1 | ✓ | ✓ |
 | ỹ | 1 | ✓ | ✓ |
+| ỹ/j | 1 | ✓ | ✓ |
 
-(477 rows)
+(367 rows)
 
 
 
@@ -499,108 +389,8 @@
 ## Words with invalid segments (up to 100 only)
 
 | ID | LANGUAGE | CONCEPT | FORM | SEGMENTS |
-|:-------------------------------------------|:-----------------------------------|:----------|:-----------|:------------------------------|
-| AmamiAsama-1_firen-1 | AmamiAsama | 1_firen | Ɂmatsɨ | <s> Ɂ </s> m a ts ɨ |
-| AmamiAsama-3_gov-1 | AmamiAsama | 3_gov | Ɂikjuɴ | <s> Ɂ </s> i k j u ɴ |
-| AmamiYamatohama-1_firen-1 | AmamiYamatohama | 1_firen | μacï | <s> <?> </s> a c ï |
-| AmamiYamatohama-3_gov-1 | AmamiYamatohama | 3_gov | Ɂixjuri | <s> Ɂ </s> i x j u r i |
-| Baoan-3_gov-2 | Baoan | 3_gov | ɵd- | ɵ d <s> <?> </s> |
-| Bashkir-2_nosen-1 | Bashkir | 2_nosen | tanaw_bor | t a n a w _ b o r |
-| Buriat-3_gov-1 | Buriat | 3_gov | yaba- | ya b a <s> <?> </s> |
-| Chuvash-2_nosen-1 | Chuvash | 2_nosen | səʷmza_bor | s <s> əʷ </s> m z a _ b o r |
-| CrimeanTatar-1_firen-1 | CrimeanTatar | 1_firen | ateš_bor | a t e <s> š </s> _ b o r |
-| Dagur-3_gov-1 | Dagur | 3_gov | iči | i <s> č </s> i |
-| Dagur-3_gov-2 | Dagur | 3_gov | yaw- | ya w <s> <?> </s> |
-| Dolgan-2_nosen-1 | Dolgan | 2_nosen | munnu | m u <s> nn </s> u |
-| EasternEvenki-3_gov-1 | EasternEvenki | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| Even-1_firen-1 | Even | 1_firen | tọg | t <s> ọ </s> g |
-| Even-2_nosen-1 | Even | 2_nosen | ọŋat | <s> ọ </s> ŋ a t |
-| Even-3_gov-1 | Even | 3_gov | ŋen- | ŋ e n <s> <?> </s> |
-| EvenkiKamnigan-3_gov-1 | EvenkiKamnigan | 3_gov | nənə- | n ə n ə <s> <?> </s> |
-| Gagauz-1_firen-1 | Gagauz | 1_firen | ateš_bor | a t e <s> š </s> _ b o r |
-| Gangwon-1_firen-1 | Gangwon | 1_firen | pwul | <s> pw </s> u l |
-| Gangwon-3_gov-1 | Gangwon | 3_gov | ka- | k a <s> <?> </s> |
-| Gyeonggi-1_firen-1 | Gyeonggi | 1_firen | pwul | <s> pw </s> u l |
-| Gyeonggi-3_gov-1 | Gyeonggi | 3_gov | ka- | k a <s> <?> </s> |
-| Hezhe-3_gov-1 | Hezhe | 3_gov | ənə- | ə n ə <s> <?> </s> |
-| Huzhu-1_firen-1 | Huzhu | 1_firen | ghal | <s> gh </s> a l |
-| Hwanghae-1_firen-1 | Hwanghae | 1_firen | pwul | <s> pw </s> u l |
-| Hwanghae-3_gov-1 | Hwanghae | 3_gov | ka- | k a <s> <?> </s> |
-| Japanese-3_gov-1 | Japanese | 3_gov | ik- | i k <s> <?> </s> |
-| Jeju-1_firen-1 | Jeju | 1_firen | pwul | <s> pw </s> u l |
-| Jeju-3_gov-1 | Jeju | 3_gov | ka- | k a <s> <?> </s> |
-| Kalmyck-3_gov-1 | Kalmyck | 3_gov | yov- | yo v <s> <?> </s> |
-| Kamnigan-3_gov-1 | Kamnigan | 3_gov | yabu- | ya b u <s> <?> </s> |
-| Khalkha-3_gov-1 | Khalkha | 3_gov | yav- | ya v <s> <?> </s> |
-| Kirghiz-3_gov-2 | Kirghiz | 3_gov | ǰürü | <s> ǰ </s> ü r ü |
-| Korean-1_firen-1 | Korean | 1_firen | pwul | <s> pw </s> u l |
-| Korean-3_gov-1 | Korean | 3_gov | ka- | k a <s> <?> </s> |
-| KurUrmi-3_gov-1 | KurUrmi | 3_gov | ənə- | ə n ə <s> <?> </s> |
-| LateMiddleKorean-1_firen-1 | LateMiddleKorean | 1_firen | pwul | <s> pw </s> u l |
-| LateMiddleKorean-3_gov-1 | LateMiddleKorean | 3_gov | ka- | k a <s> <?> </s> |
-| Manchu-3_gov-1 | Manchu | 3_gov | gənə- | g ə n ə <s> <?> </s> |
-| MiddleMongolianMuqaddimataladab-1_firen-1 | MiddleMongolianMuqaddimataladab | 1_firen | үal | <s> <?> </s> a l |
-| MiddleMongolianMuqaddimataladab-3_gov-1 | MiddleMongolianMuqaddimataladab | 3_gov | ot- | o t <s> <?> </s> |
-| MiddleMongolianSecretHistory-3_gov-1 | MiddleMongolianSecretHistory | 3_gov | ot- | o t <s> <?> </s> |
-| MiddleMongolianSecretHistory-3_gov-2 | MiddleMongolianSecretHistory | 3_gov | yabu- | ya b u <s> <?> </s> |
-| Minhe-1_firen-1 | Minhe | 1_firen | ghar | <s> gh </s> a r |
-| Minhe-3_gov-2 | Minhe | 3_gov | yao | <s> yao </s> |
-| Moghol-3_gov-1 | Moghol | 3_gov | yobu- | yo b u <s> <?> </s> |
-| NanaiBikin-3_gov-1 | NanaiBikin | 3_gov | ənə- | ə n ə <s> <?> </s> |
-| NanaiMiddleAmur-3_gov-1 | NanaiMiddleAmur | 3_gov | ənə- | ə n ə <s> <?> </s> |
-| Negidal-3_gov-1 | Negidal | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| NorthernChungcheong-1_firen-1 | NorthernChungcheong | 1_firen | pwul | <s> pw </s> u l |
-| NorthernChungcheong-3_gov-1 | NorthernChungcheong | 3_gov | ka- | k a <s> <?> </s> |
-| NorthernEvenkiTura-2_nosen-1 | NorthernEvenkiTura | 2_nosen | oňokto | o <s> ň </s> o k t o |
-| NorthernEvenkiTura-3_gov-1 | NorthernEvenkiTura | 3_gov | ňènè- | <s> ň </s> è n è <s> <?> </s> |
-| NorthernEvenkiTutonchany-3_gov-1 | NorthernEvenkiTutonchany | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| NorthernGyeongsang-1_firen-1 | NorthernGyeongsang | 1_firen | pwul | <s> pw </s> u l |
-| NorthernGyeongsang-3_gov-1 | NorthernGyeongsang | 3_gov | ka- | k a <s> <?> </s> |
-| NorthernHamgyong-1_firen-1 | NorthernHamgyong | 1_firen | pwul | <s> pw </s> u l |
-| NorthernHamgyong-3_gov-1 | NorthernHamgyong | 3_gov | ka- | k a <s> <?> </s> |
-| NorthernJeolla-1_firen-1 | NorthernJeolla | 1_firen | pwul | <s> pw </s> u l |
-| NorthernJeolla-3_gov-1 | NorthernJeolla | 3_gov | ka- | k a <s> <?> </s> |
-| NorthernPyongan-1_firen-1 | NorthernPyongan | 1_firen | pwul | <s> pw </s> u l |
-| NorthernPyongan-3_gov-1 | NorthernPyongan | 3_gov | ka- | k a <s> <?> </s> |
-| Oirat-3_gov-1 | Oirat | 3_gov | od- | o d <s> <?> </s> |
-| Oirat-3_gov-2 | Oirat | 3_gov | yov- | yo v <s> <?> </s> |
-| OkinawaShuri-1_firen-1 | OkinawaShuri | 1_firen | hwii | <s> hw </s> iː |
-| OkinawaShuri-3_gov-1 | OkinawaShuri | 3_gov | Ɂicuɴ | <s> Ɂ </s> i c u ɴ |
-| OkinawaYonamine-1_firen-1 | OkinawaYonamine | 1_firen | πii | <s> <?> </s> iː |
-| OldJapanese-3_gov-1 | OldJapanese | 3_gov | yuk- | yu k <s> <?> </s> |
-| Oroch-2_nosen-1 | Oroch | 2_nosen | ŋikso | ŋ i <s> ks </s> o |
-| Oroch-3_gov-1 | Oroch | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| Orok-3_gov-1 | Orok | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| Oroqen-3_gov-1 | Oroqen | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| ShiraYughur-1_firen-1 | ShiraYughur | 1_firen | Gal | <s> <?> </s> a l |
-| Solon-1_firen-1 | Solon | 1_firen | tͻg | t <s> <?> </s> g |
-| Solon-2_nosen-1 | Solon | 2_nosen | niːnša | n iː n <s> š </s> a |
-| Solon-3_gov-1 | Solon | 3_gov | nənə- | n ə n ə <s> <?> </s> |
-| SouthAltai-2_nosen-1 | SouthAltai | 2_nosen | tumčuḳ | t u m <s> č </s> u <s> ḳ </s> |
-| SouthernChungcheong-1_firen-1 | SouthernChungcheong | 1_firen | pwul | <s> pw </s> u l |
-| SouthernChungcheong-3_gov-1 | SouthernChungcheong | 3_gov | ka- | k a <s> <?> </s> |
-| SouthernEvenkiChiringda-1_firen-1 | SouthernEvenkiChiringda | 1_firen | toγo | t o <s> <?> </s> o |
-| SouthernEvenkiChiringda-3_gov-1 | SouthernEvenkiChiringda | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| SouthernEvenkiVershinaTuturyBaikal-3_gov-1 | SouthernEvenkiVershinaTuturyBaikal | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| SouthernGyeongsang-1_firen-1 | SouthernGyeongsang | 1_firen | pwul | <s> pw </s> u l |
-| SouthernGyeongsang-3_gov-1 | SouthernGyeongsang | 3_gov | ka- | k a <s> <?> </s> |
-| SouthernHamgyong-1_firen-1 | SouthernHamgyong | 1_firen | pwul | <s> pw </s> u l |
-| SouthernHamgyong-3_gov-1 | SouthernHamgyong | 3_gov | ka- | k a <s> <?> </s> |
-| SouthernJeolla-1_firen-1 | SouthernJeolla | 1_firen | pwul | <s> pw </s> u l |
-| SouthernJeolla-3_gov-1 | SouthernJeolla | 3_gov | ka- | k a <s> <?> </s> |
-| SouthernPyongan-1_firen-1 | SouthernPyongan | 1_firen | pwul | <s> pw </s> u l |
-| SouthernPyongan-3_gov-1 | SouthernPyongan | 3_gov | ka- | k a <s> <?> </s> |
-| StonyEvenkiPTPodkamennayaTunguska-3_gov-1 | StonyEvenkiPTPodkamennayaTunguska | 3_gov | gənə- | g ə n ə <s> <?> </s> |
-| Turkish-1_firen-1 | Turkish | 1_firen | ateš_bor | a t e <s> š </s> _ b o r |
-| Tuvan-2_nosen-2 | Tuvan | 2_nosen | dumčuḳ | d u m <s> č </s> u <s> ḳ </s> |
-| Tuvan-3_gov-2 | Tuvan | 3_gov | čoru | <s> č </s> o r u |
-| Udihe-3_gov-1 | Udihe | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| Ulcha-2_nosen-1 | Ulcha | 2_nosen | waksa | w a <s> ks </s> a |
-| Ulcha-3_gov-1 | Ulcha | 3_gov | ŋənə- | ŋ ə n ə <s> <?> </s> |
-| Uzbek-1_firen-1 | Uzbek | 1_firen | ɔlɔv_bor | ɔ l ɔ v _ b o r |
-| WestYugur-2_nosen-1 | WestYugur | 2_nosen | ḳaŋrïḳ | <s> ḳ </s> a ŋ r ï <s> ḳ </s> |
-| Xibe-3_gov-1 | Xibe | 3_gov | gənə- | g ə n ə <s> <?> </s> |
+|------|------------|-----------|--------|------------|
 
-(100 rows)
+(0 rows)
 
 

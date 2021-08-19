@@ -1,102 +1,102 @@
 ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family
+Azeri,Azeri,,,,,,,Turkic
 BarabaTatar,BarabaTatar,,,,,,,
+Bashkir,Bashkir,,,,,,,Turkic
+Chuvash,Chuvash,,,,,,,Turkic
 CodexCumanicus,CodexCumanicus,,,,,,,
-NorthAltai,NorthAltai,,,,,,,
-OldTurkic,OldTurkic,,,,,,,
+CrimeanTatar,CrimeanTatar,,,,,,,Turkic
+Dolgan,Dolgan,,,,,,,Turkic
+Gagauz,Gagauz,,,,,,,Turkic
+KarachayBalkar,KarachayBalkar,,,,,,,Turkic
+Karaim,Karaim,,,,,,,Turkic
+KaraKalpak,KaraKalpak,,,,,,,Turkic
+Kazakh,Kazakh,,,,,,,Turkic
+KazanTatar,KazanTatar,,,,,,,Turkic
+Khakas,Khakas,,,,,,,Turkic
+Khalaj,Khalaj,,,,,,,Turkic
+Kirghiz,Kirghiz,,,,,,,Turkic
+Kumyk,Kumyk,,,,,,,Turkic
+MiddleChulym,MiddleChulym,,,,,,,Turkic
+Nogai,Nogai,,,,,,,Turkic
+NorthAltai,NorthAltai,,,,,,,Turkic
+OldTurkic,OldTurkic,,,,,,,Turkic
+Salar,Salar,,,,,,,Turkic
+Shor,Shor,,,,,,,Turkic
 SouthAltai,SouthAltai,,,,,,,
-Azeri,Azeri,,,,,,,
-Bashkir,Bashkir,,,,,,,
-Chuvash,Chuvash,,,,,,,
-CrimeanTatar,CrimeanTatar,,,,,,,
-Dolgan,Dolgan,,,,,,,
-Gagauz,Gagauz,,,,,,,
-KaraKalpak,KaraKalpak,,,,,,,
-KarachayBalkar,KarachayBalkar,,,,,,,
-Karaim,Karaim,,,,,,,
-Kazakh,Kazakh,,,,,,,
-Khakas,Khakas,,,,,,,
-Khalaj,Khalaj,,,,,,,
-Kirghiz,Kirghiz,,,,,,,
-Kumyk,Kumyk,,,,,,,
-MiddleChulym,MiddleChulym,,,,,,,
-Nogai,Nogai,,,,,,,
-Salar,Salar,,,,,,,
+Tofa,Tofa,,,,,,,Turkic
+Turkish,Turkish,,,,,,,Turkic
+Turkmen,Turkmen,,,,,,,Turkic
+Tuvan,Tuvan,,,,,,,Turkic
+Uyghur,Uyghur,,,,,,,Turkic
+Uzbek,Uzbek,,,,,,,Turkic
 WestYugur,WestYugur,,,,,,,
-Shor,Shor,,,,,,,
-KazanTatar,KazanTatar,,,,,,,
-Tofa,Tofa,,,,,,,
-Turkish,Turkish,,,,,,,
-Turkmen,Turkmen,,,,,,,
-Tuvan,Tuvan,,,,,,,
-Uyghur,Uyghur,,,,,,,
-Uzbek,Uzbek,,,,,,,
-Yakut,Yakut,,,,,,,
-Khalkha,Khalkha,,,,,,,
-Buriat,Buriat,,,,,,,
-Kalmyck,Kalmyck,,,,,,,
-Oirat,Oirat,,,,,,,
-Kamnigan,Kamnigan,,,,,,,
-Dagur,Dagur,,,,,,,
-ShiraYughur,Shira-Yughur,,,,,,,
+Yakut,Yakut,,,,,,,Turkic
+AmamiAsama,Amami Asama,,,,,,,Japonic
+AmamiYamatohama,Amami Yamatohama ,,,,,,,Japonic
+AmamiYoron,Amami Yoron,,,,,,,Japonic
 Baoan,Baoan,,,,,,,
+Buriat,Buriat,,,,,,,
+Dagur,Dagur,,,,,,,
 Dongxian,Dongxian,,,,,,,
-Minhe,Minhe,,,,,,,
-Huzhu,Huzhu,,,,,,,
-Kangjia,Kangjia,,,,,,,
-Moghol,Moghol,,,,,,,
-MiddleMongolianSecretHistory,Middle Mongolian (Secret History),,,,,,,
-MiddleMongolianMuqaddimataladab,Middle Mongolian (Muqaddimat al-adab),,,,,,,
-Hezhe,Hezhe,,,,,,,
-Oroch,Oroch,,,,,,,
-Udihe,Udihe,,,,,,,
-NanaiMiddleAmur,Nanai (Middle Amur),,,,,,,
-KurUrmi,Kur-Urmi,,,,,,,
-NanaiBikin,Nanai (Bikin),,,,,,,
-Orok,Orok,,,,,,,
-Ulcha,Ulcha,,,,,,,
-Jurchen,Jurchen,,,,,,,
-Manchu,Manchu,,,,,,,
-Xibe,Xibe,,,,,,,
-Even,Even,,,,,,,
-Solon,Solon,,,,,,,
-EvenkiKamnigan,Evenki (Kamnigan),,,,,,,
-StonyEvenkiPTPodkamennayaTunguska,Stony Evenki (PT = Podkamennaya Tunguska),,,,,,,
-SouthernEvenkiChiringda,Southern Evenki (Chiringda),,,,,,,
-NorthernEvenkiTutonchany,Northern Evenki (Tutonchany),,,,,,,
-NorthernEvenkiTura,Northern Evenki (Tura),,,,,,,
-Negidal,Negidal,,,,,,,
-Oroqen,Oroqen,,,,,,,
-Korean,Korean,,,,,,,
-Hwanghae,Hwanghae,,,,,,,
-SouthernHamgyong,Southern Hamgyong,,,,,,,
-NorthernHamgyong,Northern Hamgyong,,,,,,,
-SouthernPyongan,Southern Pyongan,,,,,,,
-NorthernPyongan,Northern Pyongan,,,,,,,
-Jeju,Jeju,,,,,,,
-SouthernJeolla,Southern Jeolla,,,,,,,
-NorthernJeolla,Northern Jeolla,,,,,,,
-SouthernGyeongsang,Southern Gyeongsang,,,,,,,
-NorthernGyeongsang,Northern Gyeongsang,,,,,,,
-SouthernChungcheong,Southern Chungcheong,,,,,,,
-NorthernChungcheong,Northern Chungcheong,,,,,,,
-Gyeonggi,Gyeonggi,,,,,,,
+EasternEvenki,Eastern Evenki ,,,,,,,
+Even,Even,,,,,,,Tungusic
+EvenkiKamnigan,Evenki (Kamnigan),,,,,,,Tungusic
+Fukuoka,Fukuoka,,,,,,,
 Gangwon,Gangwon,,,,,,,
-LateMiddleKorean,(Late) Middle Korean,,,,,,,
-Japanese,Japanese,,,,,,,
-OldJapanese,Old Japanese,,,,,,,
-AmamiYamatohama,Amami Yamatohama ,,,,,,,
-AmamiAsama,Amami Asama,,,,,,,
-AmamiYoron,Amami Yoron,,,,,,,
-OkinawaYonamine,Okinawa Yonamine,,,,,,,
-OkinawaShuri,Okinawa Shuri,,,,,,,
-MiyakoIrabu,Miyako Irabu,,,,,,,
-YaeyamaIshigaki,Yaeyama Ishigaki,,,,,,,
-YaeyamaHatoma,Yaeyama Hatoma,,,,,,,
-Yonaguni,Yonaguni,,,,,,,
+Gyeonggi,Gyeonggi,,,,,,,
+Hachijo,Hachijo,,,,,,,
+Hezhe,Hezhe,,,,,,,
+Huzhu,Huzhu,,,,,,,
+Hwanghae,Hwanghae,,,,,,,
+Japanese,Japanese,,,,,,,Japonic
+Jeju,Jeju,,,,,,,
+Jurchen,Jurchen,,,,,,,Tungusic
 Kagoshima,Kagoshima,,,,,,,
+Kalmyck,Kalmyck,,,,,,,
+Kamnigan,Kamnigan,,,,,,,
+Kangjia,Kangjia,,,,,,,
+Khalkha,Khalkha,,,,,,,
+Korean,Korean,,,,,,,Korean
 Koshikiislands,Koshiki islands,,,,,,,
 Kumamoto,Kumamoto,,,,,,,
-Fukuoka,Fukuoka,,,,,,,
-Hachijo,Hachijo,,,,,,,
-EasternEvenki,Eastern Evenki ,,,,,,,
+KurUrmi,Kur-Urmi,,,,,,,
+LateMiddleKorean,(Late) Middle Korean,,,,,,,Korean
+Manchu,Manchu,,,,,,,Tungusic
+MiddleMongolianMuqaddimataladab,Middle Mongolian (Muqaddimat al-adab),,,,,,,
+MiddleMongolianSecretHistory,Middle Mongolian (Secret History),,,,,,,
+Minhe,Minhe,,,,,,,
+MiyakoIrabu,Miyako Irabu,,,,,,,
+Moghol,Moghol,,,,,,,
+NanaiBikin,Nanai (Bikin),,,,,,,Tungusic
+NanaiMiddleAmur,Nanai (Middle Amur),,,,,,,
+Negidal,Negidal,,,,,,,Tungusic
+NorthernChungcheong,Northern Chungcheong,,,,,,,
+NorthernEvenkiTura,Northern Evenki (Tura),,,,,,,
+NorthernEvenkiTutonchany,Northern Evenki (Tutonchany),,,,,,,
+NorthernGyeongsang,Northern Gyeongsang,,,,,,,
+NorthernHamgyong,Northern Hamgyong,,,,,,,
+NorthernJeolla,Northern Jeolla,,,,,,,
+NorthernPyongan,Northern Pyongan,,,,,,,
+Oirat,Oirat,,,,,,,
+OkinawaShuri,Okinawa Shuri,,,,,,,Japonic
+OkinawaYonamine,Okinawa Yonamine,,,,,,,Japonic
+OldJapanese,Old Japanese,,,,,,,Japonic
+Oroch,Oroch,,,,,,,Tungusic
+Orok,Orok,,,,,,,Tungusic
+Oroqen,Oroqen,,,,,,,Tungusic
+ShiraYughur,Shira-Yughur,,,,,,,
+Solon,Solon,,,,,,,Tungusic
+SouthernChungcheong,Southern Chungcheong,,,,,,,
+SouthernEvenkiChiringda,Southern Evenki (Chiringda),,,,,,,
 SouthernEvenkiVershinaTuturyBaikal,"Southern Evenki  (Vershina-Tutury, Baikal)",,,,,,,
+SouthernGyeongsang,Southern Gyeongsang,,,,,,,
+SouthernHamgyong,Southern Hamgyong,,,,,,,
+SouthernJeolla,Southern Jeolla,,,,,,,
+SouthernPyongan,Southern Pyongan,,,,,,,
+StonyEvenkiPTPodkamennayaTunguska,Stony Evenki (PT = Podkamennaya Tunguska),,,,,,,
+Udihe,Udihe,,,,,,,Tungusic
+Ulcha,Ulcha,,,,,,,Tungusic
+Xibe,Xibe,,,,,,,Tungusic
+YaeyamaHatoma,Yaeyama Hatoma,,,,,,,Japonic
+YaeyamaIshigaki,Yaeyama Ishigaki,,,,,,,Japonic
+Yonaguni,Yonaguni,,,,,,,Japonic

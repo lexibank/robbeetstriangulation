@@ -35,7 +35,15 @@ class Dataset(BaseDataset):
             brackets={"(": ")", "[": "]", "{": "}"},
             first_form_only=True,
             separators = (";", "/", "~", ","),
-            replacements=[(" ", "_")] 
+            replacements=[
+                (" inf. = soˁḳïš ?", ""),
+                ("arla < avərla", "arla"),
+                ("? (köterip) ", ""),
+                ("olur-. olïr-", "olur"),
+                ("?? ", ""),
+                (" + 'motion verb'", ""),
+                ("kele-", "kele"),
+                ("'(walking) stick'", ""), (" + motion verb", ""), (" ", "_")] 
             )
     
     def cmd_download(self, args):
@@ -55,9 +63,15 @@ class Dataset(BaseDataset):
                     )
             for gloss in concept["LEXIBANK_GLOSS"].split(" // "):
                 concepts[gloss] = idx
-
-        languages = args.writer.add_languages(
-                lookup_factory='Name')
+        languages = {}
+        for language in self.languages:
+            if language["NameInSheet"].strip():
+                args.writer.add_language(
+                        ID=language["ID"],
+                        Name=language["Name"],
+                        Family=language["Family"],
+                        )
+                languages[language["NameInSheet"]] = language["ID"]
         args.writer.add_sources()
         for i, row in enumerate(self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
                 dicts=True, delimiter=",")):
@@ -70,6 +84,7 @@ class Dataset(BaseDataset):
                             Language_ID=lid,
                             Parameter_ID=concepts[concept],
                             Value=entry,
+                            Cognacy=str(i+1)
                             ):
                         args.writer.add_cognate(
                                 lexeme=lex,
