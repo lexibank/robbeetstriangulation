@@ -13,7 +13,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://lingulist: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@github.com/lexibank/robbeetsaltaic",
-            "dc:created": "6f79182"
+            "dc:created": "22cc7ce"
         },
         {
             "rdf:type": "prov:Entity",
@@ -57,7 +57,7 @@
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
             "dc:description": "\nRaw lexical data item as it can be pulled out of the original datasets.\n\nThis is the basis for creating rows in CLDF representations of the data by\n- splitting the lexical item into forms\n- cleaning the forms\n- potentially tokenizing the form\n",
-            "dc:extent": 27193,
+            "dc:extent": 26224,
             "tableSchema": {
                 "columns": [
                     {
@@ -258,7 +258,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#CognateTable",
-            "dc:extent": 27193,
+            "dc:extent": 26224,
             "tableSchema": {
                 "columns": [
                     {

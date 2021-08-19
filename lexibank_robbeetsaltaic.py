@@ -31,7 +31,11 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
     cognate_class = CustomCognate
     form_spec = FormSpec(
-            missing_data=("–", "-")
+            missing_data=("–", "-"),
+            brackets={"(": ")", "[": "]", "{": "}"},
+            first_form_only=True,
+            separators = (";", "/", "~", ","),
+            replacements=[(" ", "_")] 
             )
     
     def cmd_download(self, args):
