@@ -70,15 +70,20 @@ class Dataset(BaseDataset):
                         ID=language["ID"],
                         Name=language["Name"],
                         Family=language["Family"],
+                        Latitude=language["Latitude"],
+                        Longitude=language["Longitude"],
+                        Glottocode=language["Glottocode"],
+                        ISO639P3code=language["ISO639P3code"]
                         )
                 languages[language["NameInSheet"]] = language["ID"]
         args.writer.add_sources()
         for i, row in enumerate(self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
                 dicts=True, delimiter=",")):
+            # headers are inconsistent, have to clean this
             concept = row["Meaning"].strip()
             proto = row["MRCA Root"]
             for language, lid in languages.items():
-                entry = row[language].strip()
+                entry = row.get(language, row.get(language+' ')).strip()
                 if entry:
                     for lex in args.writer.add_forms_from_value(
                             Language_ID=lid,
