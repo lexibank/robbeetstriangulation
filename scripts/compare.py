@@ -10,6 +10,7 @@ from lexibank_ielexfinal import Dataset as IE
 from lexibank_dravlex import Dataset as Dravidian
 from matplotlib import pyplot as plt
 import json
+from math import pi
 
 def get_distributions(wordlist, subgroup_names, subgroup_name="subgroup", ref="cogid"):
     """
@@ -38,8 +39,8 @@ try:
 except:
     for i, (dsname, ds, sg, cognacy) in enumerate(
             [
-                ("IE", IE, "name", "cogid_cognateset_id"),
-                ("ST", ST, "subgroup", "cognacy"), 
+                ("Indo-European", IE, "name", "cogid_cognateset_id"),
+                ("Sino-Tibetan", ST, "subgroup", "cognacy"), 
                 ("Dravidian", Dravidian, "name", "cogid_cognateset_id"),
                 ("Altaic", Altaic, "family", "cognacy")]):
         wl = cldf2wl(ds().cldf_dir / "cldf-metadata.json",
@@ -53,15 +54,53 @@ with open("data.json", "w") as f:
     f.write(json.dumps([data, labels], indent=2))
 
 plt.clf()
-fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(10, 10))
+fig, ((ax1, ax2, ax3, ax4), (ax1b, ax2b, ax3b, ax4b)) = plt.subplots(2, 4, figsize=(20, 10))
 for i, (datum, ax) in enumerate(zip(data, [ax1, ax2, ax3, ax4])):
     ds = labels[i]
-    for j in range(1, 11):
-        count = datum.count(j) / len(datum)
-        ax.bar(j, count, color="cornflowerblue")
-    ax.set_xticks(range(1, 11))
+    dat = [x for x in datum if x > 1 ]
+    maxr = max(dat)
+    for j in range(1, maxr+1):
+        count = dat.count(j) / len(dat)
+        ax.bar(
+                j, 
+                height=10 * count,
+                color="0."+str(j-1),
+                edgecolor="white",
+                )
+    ax.set_xticks(range(1, maxr+1))
+    ax.set_xticklabels([""]+[str(x) for x in range(2, maxr+1)])
     ax.set_title(ds)
-    ax.set_ylim(0, 1) #400)
+    ax.set_ylim(0, 9) #400)
+    ax.set_yticks([1 * x for x in range(10)])
+    ax.set_yticklabels(["0.0"]+["{0:.1}".format(0.1 * x) for x in range(1, 10)])
+    ax.set_xlim(1, 11)
+    #ax.set_xlabel("Cognates Across Subgroups")
+    if i == 0:
+        ax.set_ylabel("Percentage of Cognates")
+
+for i, (datum, ax) in enumerate(zip(data, [ax1b, ax2b, ax3b, ax4b])):
+    ds = labels[i]
+    dat = [x for x in datum if x > 1 ]
+    maxr = max(dat)
+    for j in range(1, maxr+1):
+        count = dat.count(j)
+        ax.bar(
+                j, 
+                height=count,
+                color="0."+str(j-1),
+                edgecolor="white",
+                )
+    ax.set_xticks(range(1, maxr+1))
+    ax.set_xticklabels([""]+[str(x) for x in range(2, maxr+1)])
+    #ax.set_title(ds)
+    ax.set_ylim(0, 400) #400)
+    ax.set_yticks([x for x in range(0, 400, 50)])
+    #ax.set_yticklabels(["0.0"]+["{0:.1}".format(0.1 * x) for x in range(1, 10)])
+    ax.set_xlim(1, 11)
+    ax.set_xlabel("Cognates Across Subgroups")
+    if i == 0:
+        ax.set_ylabel("Total Number of Cognates")
+
 
 plt.savefig("boxes.pdf")
 fig, ax = plt.subplots(figsize=(10, 2))
