@@ -27,7 +27,7 @@ class CustomCognate(Cognate):
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
-    id = "robbeetsaltaic"
+    id = "robbeetstriangulation"
     language_class = CustomLanguage
     cognate_class = CustomCognate
     form_spec = FormSpec(
@@ -54,29 +54,54 @@ class Dataset(BaseDataset):
         """
         Convert the raw data to a CLDF dataset.
         """
-        concepts = {}
-        for concept in self.concepts:
-            idx = concept["NUMBER"]+'_'+slug(concept['ENGLISH'])
-            args.writer.add_concept(
-                    ID=idx,
-                    Name=concept["ENGLISH"]
-                    )
-            for gloss in concept["LEXIBANK_GLOSS"].split(" // "):
-                concepts[gloss] = idx
         languages = {}
         for language in self.languages:
             if language["NameInSheet"].strip():
                 args.writer.add_language(
-                        ID=language["ID"],
-                        Name=language["Name"],
-                        Family=language["Family"],
-                        Latitude=language["Latitude"],
-                        Longitude=language["Longitude"],
-                        Glottocode=language["Glottocode"],
-                        ISO639P3code=language["ISO639P3code"]
-                        )
+                    ID=language["ID"],
+                    Name=language["Name"],
+                    Family=language["Family"],
+                    Latitude=language["Latitude"],
+                    Longitude=language["Longitude"],
+                    Glottocode=language["Glottocode"],
+                    ISO639P3code=language["ISO639P3code"]
+                )
                 languages[language["NameInSheet"]] = language["ID"]
+
+        concepts = self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
+                                                      dicts=True, delimiter=",")
+        errors = set()
+        print(concepts)
+        for i, row in enumerate(concepts):
+
+            # headers are inconsistent, have to clean this
+            concept = row["Meaning"].strip()
+            args.log.info("analyzing concept {0}".format(concept))
+            if concept not in concepts:
+                proto = row["MRCA Root"]
+            for language, lid in languages.items():
+                entry = row.get(language, row.get(language + ' ')).strip()
+                if entry and concept in concepts:
+                    for lex in args.writer.add_forms_from_value(
+                            Language_ID=lid,
+                            Parameter_ID=concepts[concept],
+                            Value=entry,
+                            Cognacy=str(i + 1)
+                    ):
+                        args.writer.add_cognate(
+                            lexeme=lex,
+                            Cognateset_ID=str(i + 1),
+                            Root=proto)
+                else:
+                    errors.add(concept)
+        for error in errors:
+            args.log.info("error" + str(error))
+
+
         args.writer.add_sources()
+
+
+        """
         for i, row in enumerate(self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
                 dicts=True, delimiter=",")):
             # headers are inconsistent, have to clean this
@@ -95,4 +120,6 @@ class Dataset(BaseDataset):
                                 lexeme=lex,
                                 Cognateset_ID=str(i+1),
                                 Root=proto)
+                                
+        """
 
