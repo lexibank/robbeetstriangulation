@@ -55,14 +55,14 @@ class Dataset(BaseDataset):
         Convert the raw data to a CLDF dataset.
         """
         concepts = {}
-        for concept in self.concepts:
-            idx = concept["NUMBER"]+'_'+slug(concept['ENGLISH'])
+        for concept in self.conceptlists[0].concepts.values():
+            idx = concept.number + '_' + slug(concept.english)
             args.writer.add_concept(
                     ID=idx,
-                    Name=concept["ENGLISH"]
+                    Name=concept.english
                     )
-            for gloss in concept["LEXIBANK_GLOSS"].split(" // "):
-                concepts[gloss] = idx
+            concepts[concept.english] = idx
+
         languages = {}
         for language in self.languages:
             if language["NameInSheet"].strip():
@@ -77,6 +77,7 @@ class Dataset(BaseDataset):
                         )
                 languages[language["NameInSheet"]] = language["ID"]
         args.writer.add_sources()
+        errors = set()
         for i, row in enumerate(self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
                 dicts=True, delimiter=",")):
             # headers are inconsistent, have to clean this
@@ -84,7 +85,7 @@ class Dataset(BaseDataset):
             proto = row["MRCA Root"]
             for language, lid in languages.items():
                 entry = row.get(language, row.get(language+' ')).strip()
-                if entry:
+                if entry and concept in concepts:
                     for lex in args.writer.add_forms_from_value(
                             Language_ID=lid,
                             Parameter_ID=concepts[concept],
@@ -95,4 +96,8 @@ class Dataset(BaseDataset):
                                 lexeme=lex,
                                 Cognateset_ID=str(i+1),
                                 Root=proto)
+                elif not concept in concepts:
+                    errors.add(concept)
+        for er in errors:
+            args.log.info("missing concept '{0}'".format(er))
 
