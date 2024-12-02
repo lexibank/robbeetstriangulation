@@ -59,7 +59,9 @@ class Dataset(BaseDataset):
             idx = concept.number + '_' + slug(concept.english)
             args.writer.add_concept(
                     ID=idx,
-                    Name=concept.english
+                    Name=concept.english,
+                    Concepticon_ID=concept.concepticon_id,
+                    Concepticon_Gloss=concept.concepticon_gloss,
                     )
             concepts[concept.english] = idx
         concepts['child (n.)'] = concepts['child (kin term) (n.)']
