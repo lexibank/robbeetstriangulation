@@ -1,6 +1,8 @@
 {
+    "id": "robbeetstriangulation",
     "title": "CLDF dataset derived from Robbeets et al.'s \"Triangulation of Transeurasian Languages\" from 2021",
-    "url": "",
+    "url": "https://github.com/lexibank/robbeetstriangulation.git",
     "license": "CC-BY-4.0",
-    "citation": "+++citation pending +++"
+    "citation": "Robbeets, M., Bouckaert, R., Conte, M. et al. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599, 616–621 (2021). https://doi.org/10.1038/s41586-021-04108-8",
+    "conceptlist": "Oskolskaya-2021-254"
 }
