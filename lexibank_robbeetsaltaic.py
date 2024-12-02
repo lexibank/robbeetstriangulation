@@ -62,6 +62,7 @@ class Dataset(BaseDataset):
                     Name=concept.english
                     )
             concepts[concept.english] = idx
+        concepts['child (n.)'] = concepts['child (kin term) (n.)']
 
         languages = {}
         for language in self.languages:
