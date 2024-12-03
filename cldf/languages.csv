@@ -21,8 +21,8 @@ Gagauz,Gagauz,gaga1249,Gagauz,gag,Eurasia,44.6,28.03,Turkic
 Gangwon,Gangwon,,,kor,,37.52,127.44,Koreanic
 Gyeonggi,Gyeonggi,seou1239,Seoul,kor,Eurasia,37.5,128,Koreanic
 Hachijo,Hachijo,hach1239,Hachijo,,Eurasia,33.06,139.47,Japonic
-Hezhe,Hezhe,sung1269,Sunggari,,Eurasia,47.93,132.84,Tungusic
-Huzhu,Huzhu,huzh1238,Huzhu,mjg,Eurasia,36.51,102.06,Mongolic
+Hezhe,Hezhe,sung1269,Sungari,,Eurasia,47.93,132.84,Tungusic
+Huzhu,Huzhu,huzh1238,Mongghul,mjg,Eurasia,36.51,102.06,Mongolic
 Hwanghae,Hwanghae,hwan1238,Hwanghaedo,kor,Eurasia,38.59,126.33,Koreanic
 Japanese,Japanese,,,jpn,,35,135,Japonic
 Jeju,Jeju,jeju1234,Jejueo,kor,Eurasia,33.38,126.56,Koreanic
@@ -35,7 +35,7 @@ KarachayBalkar,KarachayBalkar,kara1465,Karachay-Balkar,krc,Eurasia,39.98,63.32,T
 Karaim,Karaim,kara1464,Karaim,kdr,Eurasia,43.56,42.26,Turkic
 KaraKalpak,KaraKalpak,kara1467,Kara-Kalpak,kaa,Eurasia,54.55,25.11,Turkic
 Kazakh,Kazakh,kaza1248,Kazakh,kaz,Eurasia,41.87,65.77,Turkic
-KazanTatar,KazanTatar,kaza1250,,,,55,50,Turkic
+KazanTatar,KazanTatar,kaza1250,Kazan Tatar,,Eurasia,55,50,Turkic
 Khakas,Khakas,khak1248,Khakas,kjh,Eurasia,50.74,107.17,Turkic
 Khalaj,Khalaj,khal1270,Khalaj,kjf,Eurasia,36.53,49.58,Turkic
 Khalkha,Khalkha,halh1238,Halh Mongolian,khk,Eurasia,48.32,106.29,Mongolic
@@ -44,13 +44,13 @@ Korean,Korean,,,kor,,,,Koreanic
 Koshikiislands,Koshiki islands,sats1242,Satsuma-ben,jpn,Eurasia,31.75,129.78,Japonic
 Kumamoto,Kumamoto,kuma1281,Kumamoto-ben,jpn,Eurasia,32.47,130.44,Japonic
 Kumyk,Kumyk,kumy1244,Kumyk,kum,Eurasia,43,47,Turkic
-KurUrmi,Kur-Urmi,kuro1242,Kuro-Urmi,,Eurasia,48.29,135.05,Tungusic
+KurUrmi,Kur-Urmi,kuro1242,Kur-Urmi,,Eurasia,48.29,135.05,Tungusic
 LateMiddleKorean,(Late) Middle Korean,late1258,Late Middle Korean,kor,Eurasia,37.5,128,Koreanic
 Manchu,Manchu,manc1252,Manchu,mnc,Eurasia,47.31,126.56,Tungusic
-MiddleChulym,MiddleChulym,midd1324,Middle Chulym Turkic,,Eurasia,,,Turkic
+MiddleChulym,MiddleChulym,midd1324,,,,,,Turkic
 MiddleMongolianMuqaddimataladab,Middle Mongolian (Muqaddimat al-adab),,,,,47.12,102.5,Mongolic
 MiddleMongolianSecretHistory,Middle Mongolian (Secret History),,,,,47.12,102.5,Mongolic
-Minhe,Minhe,minh1238,Minhe,,Eurasia,36.2,102.51,Mongolic
+Minhe,Minhe,minh1238,Mangghuer,,Eurasia,36.2,102.51,Mongolic
 MiyakoIrabu,Miyako Irabu,irab1238,Irabu-Jima,mvi,Eurasia,24.5,125.09,Japonic
 Moghol,Moghol,mogh1245,Mogholi,mhj,Eurasia,34.25,62.28,Mongolic
 NanaiBikin,Nanai (Bikin),nana1257,Nanai,gld,Eurasia,45.2,134.4,Tungusic
@@ -75,7 +75,7 @@ Orok,Orok,orok1265,Orok,oaa,Eurasia,,,Tungusic
 Oroqen,Oroqen,oroq1238,Oroqen,orh,Eurasia,50.63,125.02,Tungusic
 Salar,Salar,sala1264,Salar,slr,Eurasia,35.55,102.82,Turkic
 ShiraYughur,Shira-Yughur,east2337,East Yugur,yuy,Eurasia,37.99,101.76,Mongolic
-Shor,Shor,shor1247,Shor,cjs,Eurasia,52.33,88.43,Turkic
+Shor,Shor,shor1247,Mrassu Shor-Tutal,cjs,Eurasia,52.33,88.43,Turkic
 Solon,Solon,solo1263,Solon,,Eurasia,48.17,119.49,Tungusic
 SouthAltai,SouthAltai,sout2694,Southern Altai,alt,Eurasia,50.13,86.87,Turkic
 SouthernChungcheong,Southern Chungcheong,chun1247,Ch'ungch'ongdo,kor,Eurasia,36.35,126.39,Koreanic

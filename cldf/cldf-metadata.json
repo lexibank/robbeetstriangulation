@@ -1,37 +1,41 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "+++citation pending +++",
+    "dc:bibliographicCitation": "Robbeets, M., Bouckaert, R., Conte, M. et al. Triangulation supports agricultural spread of the Transeurasian languages. Nature 599, 616\u2013621 (2021). https://doi.org/10.1038/s41586-021-04108-8",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
+    "dc:format": [
+        "http://concepticon.clld.org/contributions/Oskolskaya-2021-254"
+    ],
+    "dc:identifier": "https://github.com/lexibank/robbeetstriangulation.git",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:title": "CLDF dataset derived from Robbeets et al.'s \"Triangulation of Transeurasian Languages\" from 2021",
-    "dcat:accessURL": "https://lingulist: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@github.com/lexibank/robbeetsaltaic",
+    "dcat:accessURL": "https://github.com/lexibank/robbeetstriangulation",
     "prov:wasDerivedFrom": [
         {
+            "rdf:about": "https://github.com/lexibank/robbeetstriangulation",
             "rdf:type": "prov:Entity",
-            "dc:title": "Repository",
-            "rdf:about": "https://lingulist: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@github.com/lexibank/robbeetsaltaic",
-            "dc:created": "2784f00"
+            "dc:created": "072edca",
+            "dc:title": "Repository"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
             "rdf:about": "https://github.com/glottolog/glottolog",
-            "dc:created": "v4.4"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v5.1",
+            "dc:title": "Glottolog"
         },
         {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.5.0"
+            "rdf:type": "prov:Entity",
+            "dc:created": "v3.2.0-69-g1adec370",
+            "dc:title": "Concepticon"
         },
         {
+            "rdf:about": "https://github.com/cldf-clts/clts",
             "rdf:type": "prov:Entity",
-            "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v2.0.0"
+            "dc:created": "v2.3.0",
+            "dc:title": "CLTS"
         }
     ],
     "prov:wasGeneratedBy": [
@@ -41,18 +45,15 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.9.6"
+            "dc:description": "3.12.3"
         },
         {
             "dc:title": "python-packages",
             "dc:relation": "requirements.txt"
         }
     ],
-    "rdf:ID": "robbeetsaltaic",
+    "rdf:ID": "robbeetstriangulation",
     "rdf:type": "http://www.w3.org/ns/dcat#Distribution",
-    "dialect": {
-        "commentPrefix": null
-    },
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
@@ -176,7 +177,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
-                        "valueUrl": "http://glottolog.org/resource/languoid/id/{glottolog_id}",
+                        "valueUrl": "http://glottolog.org/resource/languoid/id/{Glottocode}",
                         "name": "Glottocode"
                     },
                     {
@@ -242,7 +243,7 @@
                     {
                         "datatype": "string",
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#concepticonReference",
-                        "valueUrl": "http://concepticon.clld.org/parameters/{concepticon_id}",
+                        "valueUrl": "http://concepticon.clld.org/parameters/{Concepticon_ID}",
                         "name": "Concepticon_ID"
                     },
                     {
