@@ -1,7 +1,7 @@
 from collections import defaultdict
 
 from pathlib import Path
-from pylexibank.dataset import Dataset as BaseDataset 
+from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank import Language, FormSpec, Cognate
 from pylexibank import progressbar
 
@@ -13,11 +13,11 @@ import attr
 class CustomLanguage(Language):
     Latitude = attr.ib(default=None)
     Longitude = attr.ib(default=None)
-    #SubGroup = attr.ib(default=None)
-    #Family = attr.ib(default='Sino-Tibetan')
-    #Source_ID = attr.ib(default=None)
-    #WiktionaryName = attr.ib(default=None)
-    #Area = attr.ib(default=None)
+    # SubGroup = attr.ib(default=None)
+    # Family = attr.ib(default='Sino-Tibetan')
+    # Source_ID = attr.ib(default=None)
+    # WiktionaryName = attr.ib(default=None)
+    # Area = attr.ib(default=None)
 
 
 @attr.s
@@ -31,21 +31,21 @@ class Dataset(BaseDataset):
     language_class = CustomLanguage
     cognate_class = CustomCognate
     form_spec = FormSpec(
-            missing_data=("–", "-"),
-            brackets={"(": ")", "[": "]", "{": "}"},
-            first_form_only=True,
-            separators = (";", "/", "~", ","),
-            replacements=[
-                (" inf. = soˁḳïš ?", ""),
-                ("arla < avərla", "arla"),
-                ("? (köterip) ", ""),
-                ("olur-. olïr-", "olur"),
-                ("?? ", ""),
-                (" + 'motion verb'", ""),
-                ("kele-", "kele"),
-                ("'(walking) stick'", ""), (" + motion verb", ""), (" ", "_")] 
-            )
-    
+        missing_data=("–", "-"),
+        brackets={"(": ")", "[": "]", "{": "}"},
+        first_form_only=True,
+        separators=(";", "/", "~", ","),
+        replacements=[
+            (" inf. = soˁḳïš ?", ""),
+            ("arla < avərla", "arla"),
+            ("? (köterip) ", ""),
+            ("olur-. olïr-", "olur"),
+            ("?? ", ""),
+            (" + 'motion verb'", ""),
+            ("kele-", "kele"),
+            ("'(walking) stick'", ""), (" + motion verb", ""), (" ", "_")]
+    )
+
     def cmd_download(self, args):
 
         self.raw_dir.xls2csv("16_Eurasia3angle_synthesis_SI 1_BV 254.xls")
@@ -54,6 +54,32 @@ class Dataset(BaseDataset):
         """
         Convert the raw data to a CLDF dataset.
         """
+        concepts = {}
+        for concept in self.conceptlists[0].concepts.values():
+            idx = concept.number + '_' + slug(concept.english)
+            args.writer.add_concept(
+                ID=idx,
+                Name=concept.english,
+                Concepticon_ID=concept.concepticon_id,
+                Concepticon_Gloss=concept.concepticon_gloss,
+            )
+            concepts[concept.english] = idx
+        concepts['child (n.)'] = concepts['child (kin term) (n.)']
+        concepts['woods  (n.)'] = concepts['wood (n.)']
+        concepts['soil (n.)'] = concepts['soil (earth) (n.)']
+        concepts['shade (n.)'] = concepts['shade / shadow (n.)']
+        concepts['burn (v.)'] = concepts['burn (intr.) (v.)']
+        concepts['leg / foot (n.)'] = concepts ['leg // foot (n.)']
+        concepts['skin (n.)'] = concepts ['skin (hide) (n.)']
+        concepts['mountain (n.)'] = concepts ['mountain (hill) (n.)']
+        concepts['nasal mucus'] = concepts['nasal mucus (n.)']
+        concepts['1SG'] = concepts['1SG pronoun']
+        concepts['rope'] = concepts['rope (n.)']
+        concepts['crush (v.)'] = concepts['crush / grind (v.)']
+        concepts['breast (n.)'] = concepts['breast (n.) // (chest) (n.)']
+
+
+
         languages = {}
         for language in self.languages:
             if language["NameInSheet"].strip():
@@ -67,18 +93,13 @@ class Dataset(BaseDataset):
                     ISO639P3code=language["ISO639P3code"]
                 )
                 languages[language["NameInSheet"]] = language["ID"]
-
-        concepts = self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
-                                                      dicts=True, delimiter=",")
+        args.writer.add_sources()
         errors = set()
-        print(concepts)
-        for i, row in enumerate(concepts):
-
+        for i, row in enumerate(self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
+                                                      dicts=True, delimiter=",")):
             # headers are inconsistent, have to clean this
             concept = row["Meaning"].strip()
-            args.log.info("analyzing concept {0}".format(concept))
-            if concept not in concepts:
-                proto = row["MRCA Root"]
+            proto = row["MRCA Root"]
             for language, lid in languages.items():
                 entry = row.get(language, row.get(language + ' ')).strip()
                 if entry and concept in concepts:
@@ -92,34 +113,7 @@ class Dataset(BaseDataset):
                             lexeme=lex,
                             Cognateset_ID=str(i + 1),
                             Root=proto)
-                else:
+                elif not concept in concepts:
                     errors.add(concept)
-        for error in errors:
-            args.log.info("error" + str(error))
-
-
-        args.writer.add_sources()
-
-
-        """
-        for i, row in enumerate(self.raw_dir.read_csv("16_Eurasia3angle_synthesis_SI 1_BV 254.1.csv",
-                dicts=True, delimiter=",")):
-            # headers are inconsistent, have to clean this
-            concept = row["Meaning"].strip()
-            proto = row["MRCA Root"]
-            for language, lid in languages.items():
-                entry = row.get(language, row.get(language+' ')).strip()
-                if entry:
-                    for lex in args.writer.add_forms_from_value(
-                            Language_ID=lid,
-                            Parameter_ID=concepts[concept],
-                            Value=entry,
-                            Cognacy=str(i+1)
-                            ):
-                        args.writer.add_cognate(
-                                lexeme=lex,
-                                Cognateset_ID=str(i+1),
-                                Root=proto)
-                                
-        """
-
+        for er in errors:
+            args.log.info("missing concept '{0}'".format(er))
