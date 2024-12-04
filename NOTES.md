@@ -2,7 +2,8 @@
 
 The sources are listed in the supplementary material, but individual word forms are not associated with individual sources. As a result, we cannot offer this detail of analysis in the data. We therefore assign all sources to the original paper by Robbeets et al. (2021) instead of trying to trace sources individually to the words in the data. The full list of sources, as kindly provided by Martine Robbeets, is listed in the following:
 
-### Japonic sources
+### Japonic Sources
+
 Chamberlain, B. H. Essay in aid of a grammar and dictionary of the Luchuan language [Transaction of the Asiatic Society of Japan 23, suppl.]. ( Z. P. Maruya & Co., 1895).
 
 Chiyo, K. & Toshizō, T. Yoron-hōgen Jiten [Yoron dialect dictionary] (Musashino Shoin, 2005).
@@ -81,7 +82,8 @@ Zendō, U. in Komatsushiro Yūichi kyōju Taishoku / Shima Minoru kyōju Taikan 
 
 Zendō, U. Tokunoshima Asama-hougen-no Fukugou-doushi-no akusento [Accentuation of compound verbs in the asama dialect of Tokunoshima]. Ryuukyuu-no Hougen 28, 1-42 (2004).
 
-### Koreanic sources
+### Koreanic Sources
+
 Ahn, O.-K. Ewen sacen [A dictionary of etymology] (Hankuk Publisher 1996 [1989]).
 
 Bae, D.-O. On the method of Old Korean study. Paytalmal 39, 325-345 (2006).
@@ -326,7 +328,7 @@ Yi, D. L. A study of lexical interpretation of Koryo Gayo. Inmwunkwahak 32, 23-3
 
 Yoo, C.-K. Hyangkahaytokuy pansengcek kochal [Reflections on Hyangka interpretations]. Mosanhakpo 9, 1-54 (1997).
 
-### Tungusic sources
+### Tungusic Sources
 
 An, J. Hezheyu jianzhi [Introduction to the Hezhen Language]. (Minzu chubanshe, 1986).
 
@@ -428,7 +430,8 @@ Zhang, Y., Zhang, Xi & Dai, S.. The Hezhen Language. (Jilin University Press, 19
 
 Yang, Z. & Fuluntai, Y.. Sibe Nikan gisun kamcibuha tacibure buleku bithe [Xibe-Chinese teaching dictionary]. (Xinjiang renmin chubanshe, 1998).
 
-### Mongolic sources
+### Mongolic Sources
+
 Bawden, Ch. Mongolian-English dictionary (Kegan Paul International, 1997).
 
 Bolčuluu, et al. Yuɣur kelen-ü üges / Dōngbù Yùgùyŭ cíhuì [Vocabulary of Eastern Yugur] (1984, 1985).
@@ -537,8 +540,10 @@ Xuwang muzhi [Epitath of Prince Xu] (Epitaph, 1109).
 
 Zhòng, S. Dáwò’ĕryŭ jiănzhì [Concise grammar of Dagur] (1982).
 
-### Turkic sources
+### Turkic Sources
+
 Ašmarin, N. Thesaurus Linguae Tschuvaschorum. Vol. 1–17 (Krasnyj Pečatnik & Čuvašskaja Kniga & Čuvašpoligrafizdat, 1928-1950).
+
 Bailey, H. W. Dictionary of Khotan Saka (Cambridge Univ. Press, 1979).
 
 Bammatov, Z. Z. Russko-kumykskij slovar' [Russian-Kumyk dictionary] (Gosudarstvennoe izdatel'stvo inostrannyx i nacional'nyx slovarej, 1960).
