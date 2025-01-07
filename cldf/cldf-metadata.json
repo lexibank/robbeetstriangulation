@@ -10,13 +10,14 @@
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
+    "dc:source": "sources.bib",
     "dc:title": "CLDF dataset derived from Robbeets et al.'s \"Triangulation of Transeurasian Languages\" from 2021",
     "dcat:accessURL": "https://github.com/lexibank/robbeetstriangulation",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "https://github.com/lexibank/robbeetstriangulation",
             "rdf:type": "prov:Entity",
-            "dc:created": "v0.1",
+            "dc:created": "v0.2",
             "dc:title": "Repository"
         },
         {
@@ -45,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.12.7"
+            "dc:description": "3.12.8"
         },
         {
             "dc:title": "python-packages",
