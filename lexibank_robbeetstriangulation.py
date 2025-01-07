@@ -1,9 +1,6 @@
-from collections import defaultdict
-
 from pathlib import Path
 from pylexibank.dataset import Dataset as BaseDataset
 from pylexibank import Language, FormSpec, Cognate
-from pylexibank import progressbar
 
 from clldutils.misc import slug
 import attr
@@ -13,11 +10,6 @@ import attr
 class CustomLanguage(Language):
     Latitude = attr.ib(default=None)
     Longitude = attr.ib(default=None)
-    # SubGroup = attr.ib(default=None)
-    # Family = attr.ib(default='Sino-Tibetan')
-    # Source_ID = attr.ib(default=None)
-    # WiktionaryName = attr.ib(default=None)
-    # Area = attr.ib(default=None)
 
 
 @attr.s
@@ -69,16 +61,14 @@ class Dataset(BaseDataset):
         concepts['soil (n.)'] = concepts['soil (earth) (n.)']
         concepts['shade (n.)'] = concepts['shade / shadow (n.)']
         concepts['burn (v.)'] = concepts['burn (intr.) (v.)']
-        concepts['leg / foot (n.)'] = concepts ['leg // foot (n.)']
-        concepts['skin (n.)'] = concepts ['skin (hide) (n.)']
-        concepts['mountain (n.)'] = concepts ['mountain (hill) (n.)']
+        concepts['leg / foot (n.)'] = concepts['leg // foot (n.)']
+        concepts['skin (n.)'] = concepts['skin (hide) (n.)']
+        concepts['mountain (n.)'] = concepts['mountain (hill) (n.)']
         concepts['nasal mucus'] = concepts['nasal mucus (n.)']
         concepts['1SG'] = concepts['1SG pronoun']
         concepts['rope'] = concepts['rope (n.)']
         concepts['crush (v.)'] = concepts['crush / grind (v.)']
         concepts['breast (n.)'] = concepts['breast (n.) // (chest) (n.)']
-
-
 
         languages = {}
         for language in self.languages:
@@ -113,7 +103,7 @@ class Dataset(BaseDataset):
                             lexeme=lex,
                             Cognateset_ID=str(i + 1),
                             Root=proto)
-                elif not concept in concepts:
+                elif concept not in concepts:
                     errors.add(concept)
         for er in errors:
-            args.log.info("missing concept '{0}'".format(er))
+            args.log.info(f"missing concept '{er}'")
